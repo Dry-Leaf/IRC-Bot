@@ -71,7 +71,9 @@ func Openweather(stored string, conn *irc.Connection) {
         api_url += `&appid=` + OW_apikey
         
         resp, err := client.Get(api_url)
-        Err_check(err)
+        if err != nil {
+            return
+        }
         defer resp.Body.Close()
 
         if resp.StatusCode == http.StatusOK {            
@@ -146,7 +148,9 @@ func Youtube(stored string, conn *irc.Connection) {
         api_url := "https://www.googleapis.com/youtube/v3/videos?part=snippet&fields=pageInfo/totalResults,items/snippet/description,items/snippet/title&id=" +
                     id + "&key=" + YT_apikey
         resp, err := client.Get(api_url)
-        Err_check(err)
+        if err != nil {
+            return
+        }
         defer resp.Body.Close()
 
         if resp.StatusCode == http.StatusOK {
