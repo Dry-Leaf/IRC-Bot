@@ -9,7 +9,7 @@ import (
     "encoding/json"
     "time"
     "io/ioutil"
-    "fmt"
+    "strconv"
 
     "github.com/thoj/go-ircevent"
 )
@@ -21,19 +21,27 @@ func Err_check(err error) {
     }
 }
 
+var weather_map = map[int]string{3: "☂", 5: "☂", 2: "☈",
+    6: "⛄︎", 7: "♨", 800: "☀", 8: "☁"} 
+
 type Weather_weather struct {
+    Id int              `json:"id"`
     Main string         `json:"main"`
     Description string  `json:"description"`
 }
 
 type Weather_main struct {
-    Temp float32        `json:"temp"`
-    Humidity float32    `json:"humidity"`
-    Pressue float32	`json:"pressure"`
+    Temp float64        `json:"temp"`
+    Humidity float64    `json:"humidity"`
+    Pressure float64	`json:"pressure"`
 }
 
 type Weather_wind struct {
-    Speed float32       `json:"speed"`
+    Speed float64       `json:"speed"`
+}
+
+type Weather_sys struct {
+    Country string      `json:"country"`
 }
 
 var openweather_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s+|\z)(\S+)*(?:\s+|\z)([a-z]*)`) 
@@ -44,10 +52,8 @@ func Openweather(stored string, conn *irc.Connection) {
 
     if len(location) > 0{
 
-//        var client = &http.Client{Timeout: 10 * time.Second}
+        var client = &http.Client{Timeout: 10 * time.Second}
         var api_url = `https://api.openweathermap.org/data/2.5/weather?units=imperial&zip=`
-
-        fmt.Println(location)
 
         if location[1] != "" {
             api_url += location[1]
@@ -57,20 +63,24 @@ func Openweather(stored string, conn *irc.Connection) {
         }
 
         api_url += `&appid=` + OW_apikey
-
-        fmt.Println(api_url)
-/*
+        
         resp, err := client.Get(api_url)
         Err_check(err)
         defer resp.Body.Close()
 
-        if resp.StatusCode == http.StatusOK {
+        if resp.StatusCode == http.StatusOK {            
             body, err := ioutil.ReadAll(resp.Body)
             Err_check(err)
             
             var dat map[string]json.RawMessage
-            err := json.Unmarshal(Test_weather, &dat)
+            err = json.Unmarshal(body, &dat)
             Err_check(err)
+
+            var cod int
+            err = json.Unmarshal(dat["cod"], &cod)
+            Err_check(err)
+
+            if cod != 200 {return}
 
             var name string
             err = json.Unmarshal(dat["name"], &name)
@@ -87,8 +97,26 @@ func Openweather(stored string, conn *irc.Connection) {
             var wwi Weather_wind
             err = json.Unmarshal(dat["wind"], &wwi)
             Err_check(err)
+
+            var ws Weather_sys
+            err = json.Unmarshal(dat["sys"], &ws)
+            Err_check(err)
+
+            post_id := ww[0].Id
+            if post_id != 800 {
+                post_id /= 100
+            }
+
+            weather_output := ": : " + name + ", " + ws.Country + " : : " +
+                weather_map[post_id] + " " + ww[0].Description + " : : " +
+                "Temperature " + strconv.FormatFloat(wm.Temp, 'f', 2, 32) + "F : : " +
+                "Pressure " + strconv.FormatFloat(wm.Pressure, 'f', 2, 32) + "㍱ : : " +
+                "Humidity " + strconv.FormatFloat(wm.Humidity, 'f', 2, 32) + "% : : " +
+                "Wind " + strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph : : " +
+                "https://openweathermap.org : :"
+
+           conn.Privmsg(Channel, weather_output)
         }
-*/
     }
 
 }
