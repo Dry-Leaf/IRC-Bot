@@ -45,7 +45,7 @@ type Weather_sys struct {
 }
 
 var openweather_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s+|\z)(\S+)*(?:\s+|\z)([a-z]*)`)
-var openweather_cityreg = regexp.MustCompile(`(?i)\A[a-z]+\z`)
+var openweather_cityreg = regexp.MustCompile(`(?i)\A[-a-z]+\z`)
 
 //posts weather
 func Openweather(stored string, conn *irc.Connection) {
