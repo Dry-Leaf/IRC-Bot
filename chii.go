@@ -107,12 +107,17 @@ func Openweather(stored string, conn *irc.Connection) {
                 post_id /= 100
             }
 
+            met_temp := (wm.Temp - 32) / 1.8
+            met_speed := wwi.Speed * .44704
+
             weather_output := ": : " + name + ", " + ws.Country + " : : " +
                 weather_map[post_id] + " " + ww[0].Description + " : : " +
-                "Temperature " + strconv.FormatFloat(wm.Temp, 'f', 2, 32) + "F : : " +
+                "Temperature " + strconv.FormatFloat(met_temp, 'f', 2, 32) + "C - " +
+                    strconv.FormatFloat(wm.Temp, 'f', 2, 32) + "F : : " +
                 "Pressure " + strconv.FormatFloat(wm.Pressure, 'f', 2, 32) + "㍱ : : " +
                 "Humidity " + strconv.FormatFloat(wm.Humidity, 'f', 2, 32) + "% : : " +
-                "Wind " + strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph : : " +
+                "Wind " + strconv.FormatFloat(met_speed, 'f', 2, 32) + "m/s - " + 
+                    strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph : : " +
                 "https://openweathermap.org : :"
 
            conn.Privmsg(Channel, weather_output)
