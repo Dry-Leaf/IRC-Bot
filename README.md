@@ -1,4 +1,4 @@
-# Chi
+# Chii
 
 An irc bot written in golang.
 
@@ -8,13 +8,13 @@ An irc bot written in golang.
 
 ## Compile Instructions
 
-git clone https://gitgud.io/nvtelen/chi
+git clone https://gitgud.io/nvtelen/chii
 
-cd chi 
+cd chii 
 
 go mod init modules
 
 go mod tidy 
 
-go build -o chi *.go
+go build -o chii *.go
 
