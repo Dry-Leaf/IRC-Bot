@@ -44,7 +44,8 @@ type Weather_sys struct {
     Country string      `json:"country"`
 }
 
-var openweather_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s+|\z)(\S+)*(?:\s+|\z)([a-z]*)`) 
+var openweather_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s+|\z)(\S+)*(?:\s+|\z)([a-z]*)`)
+var openweather_cityreg = regexp.MustCompile(`(?i)\A[a-z]+\z`)
 
 //posts weather
 func Openweather(stored string, conn *irc.Connection) {
@@ -53,9 +54,14 @@ func Openweather(stored string, conn *irc.Connection) {
     if len(location) > 0{
 
         var client = &http.Client{Timeout: 10 * time.Second}
-        var api_url = `https://api.openweathermap.org/data/2.5/weather?units=imperial&zip=`
+        var api_url = `https://api.openweathermap.org/data/2.5/weather?units=imperial`
 
         if location[1] != "" {
+            //city test
+            if match := openweather_cityreg.MatchString(location[1]); match {
+                api_url += "&q="
+            } else { api_url += "&zip=" }
+            
             api_url += location[1]
         } else {return}		//check map for registered zip codes
         if location[2] != "" {
