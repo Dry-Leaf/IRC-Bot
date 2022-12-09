@@ -134,7 +134,7 @@ func Openweather(stored string, conn *irc.Connection) {
 
 }
 
-var youtube_linkreg = regexp.MustCompile(`(https:\/\/|https:\/\/www.)(youtube.com\/watch\?v=|youtu.be\/)(\S+)`)
+var youtube_linkreg = regexp.MustCompile(`(?:.*)(https:\/\/|https:\/\/www.)(youtube.com\/watch\?v=|youtu.be\/)(\S+)`)
 
 //posts title and description of youtube videos
 func Youtube(stored string, conn *irc.Connection) {
