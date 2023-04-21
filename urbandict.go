@@ -7,6 +7,7 @@ import (
     "io/ioutil"
     "encoding/json"
     "time"
+    "strings"
     "github.com/thoj/go-ircevent"
 )
 
@@ -20,8 +21,7 @@ func Urbandictionary(stored string, conn *irc.Connection) {
     tolookup := urbandict_reg.FindStringSubmatch(stored)
 
     if len(tolookup) > 0{
-
-        api_url := `https://api.urbandictionary.com/v0/define?term=` + tolookup[1]
+        api_url := `https://api.urbandictionary.com/v0/define?term=` + strings.ReplaceAll(tolookup[1], " ", "%20")
         var client = &http.Client{Timeout: 10 * time.Second}
 
         resp, err := client.Get(api_url)
