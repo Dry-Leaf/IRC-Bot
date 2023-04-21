@@ -61,6 +61,7 @@ func main() {
 
         go Youtube(stored, conn)
         go Openweather(stored, conn)
+        go Urbandictionary(stored, conn)
         go EightBall(stored, conn)
     })
 

@@ -6,6 +6,7 @@ import (
     "net/http"
     "time"
     "io/ioutil"
+    "unicode/utf8"
     "encoding/json"
 
     "github.com/thoj/go-ircevent"
@@ -49,7 +50,7 @@ func Youtube(stored string, conn *irc.Connection) {
 
             trundesc := []rune(desc)
             var fdesc string
-            dlen := len(desc)
+            dlen := utf8.RuneCountInString(desc)
 
             if dlen > 80 {
                 dlen = 80
