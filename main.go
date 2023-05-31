@@ -46,6 +46,10 @@ func main() {
 
     Load_conf()
 
+    if _, err = os.Stat("message.db"); err != nil {
+        New_db()
+    }
+
     conn := irc.IRC(Nickname, Username)
     conn.Log.SetOutput(log_file)
     //conn.Debug = true
@@ -63,6 +67,14 @@ func main() {
         go Openweather(stored, conn)
         go Urbandictionary(stored, conn)
         go EightBall(stored, conn)
+        go NewMessage(e.Nick, stored, conn)
+    })
+
+    //anybody joins the channel
+    conn.AddCallback("JOIN", func (e *irc.Event) {
+        user := e.Nick
+
+        go Tell(user, conn)
     })
 
     //kicked
