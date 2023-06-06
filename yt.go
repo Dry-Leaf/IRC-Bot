@@ -16,7 +16,7 @@ import (
 var youtube_linkreg = regexp.MustCompile(`(?:.*)(https:\/\/|https:\/\/www.)(youtube.com\/watch\?v=|youtu.be\/)([^\?\s]+)(?:.*)`)
 
 //posts title and description of youtube videos
-func Youtube(stored string, conn *irc.Connection) {
+func Youtube(stored, ch string, conn *irc.Connection) {
     url := youtube_linkreg.FindStringSubmatch(stored)
 
     if len(url) == 4 {
@@ -62,7 +62,7 @@ func Youtube(stored string, conn *irc.Connection) {
 
             title = Vowel_replace(title)
             fdesc = Vowel_replace(fdesc)
-            conn.Privmsg(Channel, title + " ★ " + fdesc)
+            conn.Privmsg(ch, title + " ★ " + fdesc)
         }
     }
 }

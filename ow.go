@@ -39,7 +39,7 @@ var openweather_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s+|\z)(\S[^,]+(?:\z|,))
 var openweather_cityreg = regexp.MustCompile(`(?i)\A\D+\z`)
 
 //posts weather
-func Openweather(stored string, conn *irc.Connection) {
+func Openweather(stored, ch string, conn *irc.Connection) {
     location := openweather_reg.FindStringSubmatch(stored)
 
     if len(location) > 0{
@@ -120,7 +120,7 @@ func Openweather(stored string, conn *irc.Connection) {
                 "https://openweathermap.org : :"
 
            weather_output = Vowel_replace(weather_output)
-           conn.Privmsg(Channel, weather_output)
+           conn.Privmsg(ch, weather_output)
         }
     }
 

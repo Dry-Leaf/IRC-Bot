@@ -55,25 +55,24 @@ func main() {
     //conn.Debug = true
 
     //connecting to the server
-    conn.AddCallback("001", func(e *irc.Event) {
-        conn.Join(Channel) 
-    })
-
+    for _, ch := range Channels {
+        conn.AddCallback("001", func(e *irc.Event) {
+            conn.Join(ch) 
+    })}
     //anybody posts in the channel
     conn.AddCallback("PRIVMSG", func (e *irc.Event) {
         stored := e.Message()
 
-        go Youtube(stored, conn)
-        go Openweather(stored, conn)
-        go Urbandictionary(stored, conn)
-        go EightBall(stored, conn)
+        go Youtube(stored, e.Arguments[0], conn)
+        go Openweather(stored, e.Arguments[0], conn)
+        go Urbandictionary(stored, e.Arguments[0], conn)
+        go EightBall(stored, e.Arguments[0], conn)
         go NewMessage(e.Nick, stored, conn)
     })
 
-    //anybody joins the channel
+    //anybody joins the server
     conn.AddCallback("JOIN", func (e *irc.Event) {
         user := e.Nick
-
         go Tell(user, conn)
     })
 
@@ -83,7 +82,7 @@ func main() {
 
         if kick_args[1] == conn.GetNick() {
             time.Sleep(3 * time.Second)
-            conn.Join(Channel)
+            conn.Join(kick_args[0])
         }
     })
 

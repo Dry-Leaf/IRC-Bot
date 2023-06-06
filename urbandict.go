@@ -17,7 +17,7 @@ type UDefinition struct {
 
 var urbandict_reg = regexp.MustCompile(`(?i)\A\.ud(?:\s+|\z)(\S.*)`)
 
-func Urbandictionary(stored string, conn *irc.Connection) {
+func Urbandictionary(stored, ch string, conn *irc.Connection) {
     tolookup := urbandict_reg.FindStringSubmatch(stored)
 
     if len(tolookup) > 0{
@@ -42,7 +42,7 @@ func Urbandictionary(stored string, conn *irc.Connection) {
             err = json.Unmarshal(dat["list"], &ud)
             Err_check(err)
 
-            conn.Privmsg(Channel, ud[0].Definition)
+            conn.Privmsg(ch, ud[0].Definition)
         }
     }
 }

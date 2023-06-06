@@ -21,9 +21,9 @@ var eightBallAnswers = map[int]string{
 
 var eightBallReg = regexp.MustCompile(`(?i)\A\.8ball(?:\s+|\z)`)
 
-func EightBall(stored string, conn *irc.Connection) {
+func EightBall(stored, ch string, conn *irc.Connection) {
     if eightBallReg.MatchString(stored) {
         reply := eightBallAnswers[rand.Intn(20)]
-        conn.Privmsg(Channel, reply)
+        conn.Privmsg(ch, reply)
     }
 }

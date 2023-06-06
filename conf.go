@@ -6,7 +6,8 @@ import (
     ini "gopkg.in/ini.v1"
 )
 
-var Server, Channel string
+var Server string
+var Channels []string
 var Nickname, Username string
 
 var YT_apikey string
@@ -23,8 +24,11 @@ func Load_conf() {
     Err_check(err)
 
     Server = cfg.Section("IRC Settings").Key("server").String(); blank_check(Server, "server")
-    Channel = cfg.Section("IRC Settings").Key("channel").String(); blank_check(Channel, "channel")
-    Channel = "#" + Channel
+    Channels = cfg.Section("IRC Settings").Key("channel").Strings(" ")
+    for i, ch := range Channels {
+        blank_check(ch, "channel")
+        Channels[i] = "#" + ch
+    }
 
     Nickname = cfg.Section("IRC Settings").Key("nickname").String(); blank_check(Nickname, "nickname")
     Username = cfg.Section("IRC Settings").Key("username").String(); blank_check(Username, "username")
