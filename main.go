@@ -55,10 +55,11 @@ func main() {
     //conn.Debug = true
 
     //connecting to the server
-    for _, ch := range Channels {
-        conn.AddCallback("001", func(e *irc.Event) {
-            conn.Join(ch) 
-    })}
+    channel_list := strings.Join(Channels, ",")
+    conn.AddCallback("001", func(e *irc.Event) {
+            conn.Join(channel_list)
+    })
+
     //anybody posts in the channel
     conn.AddCallback("PRIVMSG", func (e *irc.Event) {
         stored := e.Message()
