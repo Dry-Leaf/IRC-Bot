@@ -6,6 +6,7 @@ import (
     "os"
     "time"
     "strings"
+    //"fmt"
 
     "github.com/thoj/go-ircevent"
 )
