@@ -42,7 +42,11 @@ func Urbandictionary(stored, ch string, conn *irc.Connection) {
             err = json.Unmarshal(dat["list"], &ud)
             Err_check(err)
 
-            conn.Privmsg(ch, ud[0].Definition)
+            if len(ud) > 0 {
+                conn.Privmsg(ch, ud[0].Definition)
+            } else {
+                conn.Privmsg(ch, "Word not found.")
+            }
         }
     }
 }
