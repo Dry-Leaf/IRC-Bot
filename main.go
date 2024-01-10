@@ -46,6 +46,7 @@ func main() {
     log.SetFlags(log.LstdFlags | log.Lmicroseconds)
 
     Load_conf()
+    Trivia_unload()
 
     if _, err = os.Stat("message.db"); err != nil {
         New_db()
@@ -70,6 +71,7 @@ func main() {
         go Urbandictionary(stored, e.Arguments[0], conn)
         go EightBall(stored, e.Arguments[0], conn)
         go NewMessage(e.Nick, stored, conn)
+        go Trivia(e.Nick, stored, e.Arguments[0], conn)
     })
 
     //anybody joins the server
