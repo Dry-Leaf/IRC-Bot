@@ -74,10 +74,22 @@ func check(sender, ch string, conn *irc.Connection) {
     }}
 }
 
+func declare_winner(ch string, conn *irc.Connection) {
+    var winner string
+    points := 0
+    for k, v := range score {
+        if v > points {
+            winner = k; points = v
+        }
+    }
+
+    conn.Privmsg(ch, fmt.Sprintf("Trivia Complete. Winner: %s | Score: %d", winner, points))
+}
+
 func ask(ch string, conn *irc.Connection) {
     hint_give := func(hint, answer []rune) {
         hint_size := len(hint)
-        timer := time.After(15 * time.Second)
+        timer := time.After(12 * time.Second)
 
         select {
             case <-timer:
@@ -89,7 +101,7 @@ func ask(ch string, conn *irc.Connection) {
 
                 for i, _ := range hint {
                     randomNumber := rand.Float64()
-                    if randomNumber < .3 {hint[i] = answer[i]}
+                    if randomNumber < .4 {hint[i] = answer[i]}
                 }
                 asking <- true
             case <-hinting:
@@ -116,6 +128,7 @@ func ask(ch string, conn *irc.Connection) {
 
     for playing_trivia {
         if len(selection) < 1 {
+           declare_winner(ch, conn)
            reset()
            break
         }
@@ -134,20 +147,11 @@ func ask(ch string, conn *irc.Connection) {
         asking <- true
         <-answered
     }
-
-    var winner string
-    points := 0
-    for k, v := range score {
-        if v > points {
-            winner = k; points = v
-        }
-    }
-
-    conn.Privmsg(ch, fmt.Sprintf("Trivia Complete. Winner: %s | Score: %d", winner, points))
 }
 
 func Trivia(sender, stored, ch string, conn *irc.Connection) {    
     if playing_trivia && striviaReg.MatchString(stored) {
+        declare_winner(ch, conn)
         go striv()
         return
     }
