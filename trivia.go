@@ -2,7 +2,7 @@ package main
 
 import (
     "math/rand"
-    //"html"
+    "html"
     //"os"
     "strconv"
     "slices"
@@ -28,7 +28,7 @@ type question_struct struct {
 
 var qslice []question_struct
 var selection []int
-//var score = map[string]int{}
+var score = map[string]int{}
 
 var reply = make(chan string)
 var asking = make(chan bool)
@@ -73,7 +73,14 @@ func check(sender, ch string, conn *irc.Connection) {
         if strings.EqualFold(answer, submission) {
             asking <- false
             hinting <- false
-            conn.Privmsg(ch, fmt.Sprintf("Winner %s | Answer: %s", sender, answers[0]))
+            conn.Privmsg(ch, fmt.Sprintf("Winner: %s | Answer: %s", sender, answers[0]))
+
+            if _, ok := score[sender]; ok {
+                score[sender] += 1
+            } else {
+                score[sender] = 1
+            }
+
             return
     }}
 }
@@ -89,6 +96,11 @@ func ask(ch string, conn *irc.Connection) {
                 for {
                     num := rand.Intn(hint_size)
                     if hint[num] == '*' {hint[num] = answer[num]; break}
+                }
+
+                for i, _ := range hint {
+                    randomNumber := rand.Float64()
+                    if randomNumber < .2 {hint[i] = answer[i]}
                 }
                 asking <- true
             case <-hinting:
@@ -113,11 +125,11 @@ func ask(ch string, conn *irc.Connection) {
     for playing_trivia {
         if len(selection) < 1 {
            reset()
-           return
+           break
         }
 
         cq := qslice[selection[0]]
-        conn.Privmsg(ch, cq.Question)
+        conn.Privmsg(ch, html.UnescapeString(cq.Question))
 
         var hint []rune
         for _, c := range cq.Answers[0] {
@@ -130,14 +142,24 @@ func ask(ch string, conn *irc.Connection) {
         asking <- true
         <-answered
     }
+
+    var winner string
+    points := 0
+    for k, v := range score {
+        if v > points {
+            winner = k; points = v
+        }
+    }
+
+    conn.Privmsg(ch, fmt.Sprintf("Trivia Complete. Winner: %s | Score:%d", winner, points))
 }
 
 func Trivia(sender, stored, ch string, conn *irc.Connection) {    
-    /*if striviaReg.MatchString(stored) {
+    if striviaReg.MatchString(stored) {
         conn.Privmsg(ch, "Trivia Quit")
         reset()
         return
-    }*/
+    }
     
     params := triviaReg.FindStringSubmatch(stored)
 
@@ -154,6 +176,11 @@ func Trivia(sender, stored, ch string, conn *irc.Connection) {
         }
         
         pool_size := len(qslice)
+
+        if (question_number <= 0) {
+            conn.Privmsg(ch, "Question number too low")
+            return
+        }
         
         if (question_number > pool_size) {
             conn.Privmsg(ch, "Question number must not exceed: " + string(pool_size))
