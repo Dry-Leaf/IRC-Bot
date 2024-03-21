@@ -6,6 +6,7 @@ import (
     "os"
     "time"
     "strings"
+    "math/rand"
     //"fmt"
 
     "github.com/thoj/go-ircevent"
@@ -44,6 +45,8 @@ func main() {
 
     log.SetOutput(log_file)
     log.SetFlags(log.LstdFlags | log.Lmicroseconds)
+
+    rand.Seed(time.Now().UnixNano())
 
     Load_conf()
     Trivia_unload()
