@@ -79,15 +79,18 @@ func check(sender, submission, ch string, conn *irc.Connection) {
 }
 
 func declare_winner(ch string, conn *irc.Connection) {
-    var winner string
+    var winners []string
     points := 0
     for k, v := range score {
-        if v > points {
-            winner = k; points = v
-        }
-    }
+        if v >= points {
+            if v > points {winners = nil; points = v}
+            winners = append(winners, k)
+    }}
 
-    conn.Privmsg(ch, fmt.Sprintf("Trivia Complete. Winner: %s | Points: %d", winner, points))
+    message := "Trivia Complete. Winner: %s | Points: %d"
+    if len(winners) > 1 {message = "Trivia Complete. Tie Between: %s | Points: %d"}
+
+    conn.Privmsg(ch, fmt.Sprintf(message, strings.Join(winners, ", "), points))
 }
 
 func ask(ch string, conn *irc.Connection) {
