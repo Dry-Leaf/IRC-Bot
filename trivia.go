@@ -88,11 +88,18 @@ func declare_winner(ch string, conn *irc.Connection) {
 
 func ask(ch string, conn *irc.Connection) {
     hint_give := func(hint, answer []rune) {
+
         hint_size := len(hint)
         timer := time.After(12 * time.Second)
 
         select {
             case <-timer:
+                if string(hint) == string(answer) {
+                    conn.Privmsg(ch, fmt.Sprintf("Times Up! The answer is: %s", string(hint)))
+                    asking <- false
+                    return
+                }
+
                 conn.Privmsg(ch, fmt.Sprintf("Hint: %s", string(hint)))
                 for {
                     num := rand.Intn(hint_size)
@@ -111,10 +118,6 @@ func ask(ch string, conn *irc.Connection) {
         begin := <-asking
 
         for begin {
-            if string(hint) == cq.Answers[0] {
-                conn.Privmsg(ch, fmt.Sprintf("Times Up! The answer is: %s", string(hint)))
-                break
-            }
             go hint_give(hint, []rune(cq.Answers[0]))
             begin = <-asking
         }
