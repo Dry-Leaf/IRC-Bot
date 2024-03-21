@@ -51,9 +51,14 @@ func reset() {
 
 func striv() {
     reset()
-    asking <- false
-    hinting <- false
-}
+    select {
+        case asking <- false:
+        default:
+    } 
+    select {
+        case hinting <- false:
+        default:
+}}
 
 func check(sender, ch string, conn *irc.Connection) {
     submission := <-reply
