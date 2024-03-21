@@ -83,7 +83,7 @@ func declare_winner(ch string, conn *irc.Connection) {
         }
     }
 
-    conn.Privmsg(ch, fmt.Sprintf("Trivia Complete. Winner: %s | Score: %d", winner, points))
+    conn.Privmsg(ch, fmt.Sprintf("Trivia Complete. Winner: %s | Points: %d", winner, points))
 }
 
 func ask(ch string, conn *irc.Connection) {
@@ -129,7 +129,7 @@ func ask(ch string, conn *irc.Connection) {
         answered <- true
     }
 
-    for playing_trivia {
+    for qc := 1; playing_trivia; qc++ {
         if len(selection) < 1 {
            declare_winner(ch, conn)
            reset()
@@ -137,7 +137,7 @@ func ask(ch string, conn *irc.Connection) {
         }
 
         cq := qslice[selection[0]]
-        conn.Privmsg(ch, html.UnescapeString(cq.Question))
+        conn.Privmsg(ch, fmt.Sprintf("%d. %s", qc, html.UnescapeString(cq.Question)))
 
         var hint []rune
         for _, c := range cq.Answers[0] {
