@@ -1,9 +1,9 @@
 package main
 
 import (
+    "math"
     "math/rand"
     "html"
-    //"os"
     "strconv"
     "slices"
     "strings"
@@ -30,7 +30,6 @@ var qslice []question_struct
 var selection []int
 var score = map[string]int{}
 
-var reply = make(chan string)
 var asking = make(chan bool)
 var hinting = make(chan bool)
 var answered = make(chan bool)
@@ -60,8 +59,8 @@ func striv() {
         default:
 }}
 
-func check(sender, ch string, conn *irc.Connection) {
-    submission := <-reply
+func check(sender, submission, ch string, conn *irc.Connection) {
+    if len(selection) < 1 {return}
     answers := qslice[selection[0]].Answers
 
     for _, answer := range answers {
@@ -92,29 +91,32 @@ func declare_winner(ch string, conn *irc.Connection) {
 }
 
 func ask(ch string, conn *irc.Connection) {
-    hint_give := func(hint, answer []rune) {
+    hint_give := func(hint, answer []rune, iter int) {
 
         hint_size := len(hint)
         timer := time.After(12 * time.Second)
 
         select {
             case <-timer:
-                if string(hint) == string(answer) {
-                    conn.Privmsg(ch, fmt.Sprintf("Times Up! The answer is: %s", string(hint)))
+                if iter == 3 || (iter > 0 && 0 >= hint_size - 3) {
                     asking <- false
+                    conn.Privmsg(ch, fmt.Sprintf("Times Up! The answer is: %s", string(answer)))
                     return
                 }
+                
+                if hint_size > 3 {
+                    ps := int(max(math.Floor(float64(hint_size) / 4), 1))
+
+                    switch iter {
+                    case 0:
+                        copy(hint[0:], answer[0:ps])
+                    case 1:
+                        copy(hint[ps:], answer[ps:2*ps])
+                    case 2:
+                        copy(hint[ps*3:], answer[3*ps:4*ps])
+                }}            
 
                 conn.Privmsg(ch, fmt.Sprintf("Hint: %s", string(hint)))
-                for {
-                    num := rand.Intn(hint_size)
-                    if hint[num] == '*' {hint[num] = answer[num]; break}
-                }
-
-                for i, _ := range hint {
-                    randomNumber := rand.Float64()
-                    if randomNumber < .4 {hint[i] = answer[i]}
-                }
                 asking <- true
             case <-hinting:
     }}
@@ -122,8 +124,8 @@ func ask(ch string, conn *irc.Connection) {
     question_loop := func(cq question_struct, hint []rune) {
         begin := <-asking
 
-        for begin {
-            go hint_give(hint, []rune(cq.Answers[0]))
+        for iter := 0; begin; iter++ {
+            go hint_give(hint, []rune(cq.Answers[0]), iter)
             begin = <-asking
         }
 
@@ -146,8 +148,8 @@ func ask(ch string, conn *irc.Connection) {
 
         var hint []rune
         for _, c := range cq.Answers[0] {
-            if c == ' ' {
-                hint = append(hint, ' ')
+            if c == ' ' || c == ',' || c == '\'' || c == '%' || c == '-'{
+                hint = append(hint, c)
             } else {hint = append(hint, '*')}
         }
         
@@ -167,8 +169,7 @@ func Trivia(sender, stored, ch string, conn *irc.Connection) {
     params := triviaReg.FindStringSubmatch(stored)
 
     if playing_trivia {
-        go check(sender, ch, conn)
-        reply <- stored
+        go check(sender, stored, ch, conn)
     } else if triviaReg.MatchString(stored) {      
         question_number := 0
         
