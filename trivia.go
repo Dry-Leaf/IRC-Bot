@@ -85,7 +85,7 @@ func check(sender, submission, ch string, conn *irc.Connection) {
         if strings.EqualFold(answer, submission) {
             asking <- false
             hinting <- false
-            conn.Privmsg(ch, fmt.Sprintf("Winner: %s | Answer: %s", sender, answers[0]))
+            conn.Privmsg(ch, fmt.Sprintf("Winner: %s | Answer: %s", sender, Vowel_replace(answers[0])))
 
             if _, ok := score[sender]; ok {
                 score[sender] += 1
@@ -102,7 +102,7 @@ func declare_winner(ch string, conn *irc.Connection) {
     for k, v := range score {
         if v >= points {
             if v > points {winners = nil; points = v}
-            winners = append(winners, k)
+            winners = append(winners, Vowel_replace(k))
     }}
 
     message := "Trivia Complete. Winner: %s | Points: %d"
@@ -121,7 +121,7 @@ func ask(ch string, conn *irc.Connection) {
             case <-timer:
                 if iter == 3 || (iter > 0 && 0 >= hint_size - 3) {
                     asking <- false
-                    conn.Privmsg(ch, fmt.Sprintf("Times Up! The answer is: %s", string(answer)))
+                    conn.Privmsg(ch, fmt.Sprintf("Times Up! The answer is: %s", Vowel_replace(string(answer))))
                     return
                 }
                 
@@ -137,7 +137,7 @@ func ask(ch string, conn *irc.Connection) {
                         copy(hint[ps*3:], answer[3*ps:4*ps])
                 }}            
 
-                conn.Privmsg(ch, fmt.Sprintf("Hint: %s", string(hint)))
+                conn.Privmsg(ch, fmt.Sprintf("Hint: %s", Vowel_replace(string(hint))))
                 asking <- true
             case <-hinting:
     }}
@@ -165,7 +165,7 @@ func ask(ch string, conn *irc.Connection) {
         }
 
         cq := qslice[selection[0]]
-        conn.Privmsg(ch, fmt.Sprintf("%d. %s", qc, cq.Question))
+        conn.Privmsg(ch, fmt.Sprintf("%d. %s", qc, Vowel_replace(cq.Question)))
 
         var hint []rune
         for _, c := range cq.Answers[0] {
