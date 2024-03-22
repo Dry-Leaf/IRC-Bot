@@ -34,6 +34,24 @@ var asking = make(chan bool)
 var hinting = make(chan bool)
 var answered = make(chan bool)
 
+
+func (cq *question_struct) UnmarshalJSON(b []byte) error {
+
+    type internal_qs question_struct
+    var internal internal_qs
+
+    if err := json.Unmarshal(b, &internal); err != nil {
+        return err
+    }
+
+    cq.Question = html.UnescapeString(internal.Question)
+    for _, a := range internal.Answers {
+        cq.Answers = append(cq.Answers, html.UnescapeString(a))
+    }
+
+    return nil
+}
+
 func Trivia_unload() {
     file, err := ioutil.ReadFile("interleaved.json")
     Err_check(err)
@@ -147,11 +165,11 @@ func ask(ch string, conn *irc.Connection) {
         }
 
         cq := qslice[selection[0]]
-        conn.Privmsg(ch, fmt.Sprintf("%d. %s", qc, html.UnescapeString(cq.Question)))
+        conn.Privmsg(ch, fmt.Sprintf("%d. %s", qc, cq.Question))
 
         var hint []rune
         for _, c := range cq.Answers[0] {
-            if c == ' ' || c == ',' || c == '\'' || c == '%' || c == '-'{
+            if c == ' ' || c == '/' || c == ',' || c == '\'' || c == '%' || c == '-'{
                 hint = append(hint, c)
             } else {hint = append(hint, '*')}
         }

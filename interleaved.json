@@ -1,4 +1,164 @@
-[  
+[ 
+  {
+    "question": "(Whisper of the Heart) Which company created the clock in the antique shop? ",
+    "answers": ["Porco Rosso"]
+  },
+  {
+    "question": "(Rurouni Kenshin) What type of sword does Kenshin use, where the leading edge is dull, and the back side is the cutting edge?",
+    "answers": ["sakabatou"]
+  },
+  {
+    "question": "(Gunsmith Cats) What unusual item do Rally and Minnie May keep in their refrigerator?",
+    "answers": ["Plastic explosives"]
+  },
+  {
+    "question": "(Gunsmith Cats) What is Rally's ethnicity?",
+    "answers": ["East Indian/Japanese"]
+  },
+  {
+    "question": "(Gunsmith Cats) What is Rally's favorite handgun?",
+    "answers": ["Czech CZ75", "A Czech CZ75"]
+  },
+  {
+    "question": "(Gunbuster Aim for the Top!) What was given to Amano prior to leaving on her final mission?",
+    "answers": ["origami", "origami tsuru"]
+  },
+  {
+    "question": "(Grave of the Fireflies) What candy does Setsuko carry? ",
+    "answers": ["Morinaga Drops"]
+  },
+  {
+    "question": "(Fruits Basket) How does Kyo enter the Sohma residence the first time we meet him?",
+    "answers": ["the roof"]
+  },
+  {
+    "question": "(Fruits Basket) What does Shigure add to his curry that Yuki doesn't think belongs?",
+    "answers": ["Takuan"]
+  },
+  {
+    "question": "(Fruits Basket) What size apartment does Uo-chan live in?",
+    "answers": ["1DK"]
+  },
+  {
+    "question": "(Chobits) What is Yumi's Breast size?",
+    "answers": ["E-cup"]
+  },
+  {
+    "question": "(Card Captor Sakura) In episode 11, what is the 'very precious thing' that Tomoyo had in the box that was sealed by the shield card?",
+    "answers": ["An eraser"]
+  },
+  {
+    "question": "(Card Captor Sakura) When did Sakura and Tomoyo first meet?",
+    "answers": ["3rd grade", "Third grade"]
+  },
+  {
+    "question": "(Bubblegum Crisis) In 'Double Vision,' Who manufactured the portable computer that Daley is using to pull up information?",
+    "answers": ["Toshiba"]
+  },
+  {
+    "question": "(Bubblegum Crisis) In 'Double Vision,' What type of car does Sylia drive?",
+    "answers": ["Mercedes C-III"]
+  },
+  {
+    "question": "(Bubblegum Crisis) What company makes Priss' motorcycle?",
+    "answers": ["Genom"]
+  },
+  {
+    "question": "(Bubblegum Crisis) What language was the code written in on Sylia's data cartridge from her father?",
+    "answers": ["BASIC"]
+  },
+  {
+    "question": "(Bubblegum Crisis) What 1982 movie influenced Priss' name and the name of her rock band?",
+    "answers": ["Blade Runner"]
+  },
+  {
+    "question": "(Lupin III) Which TV station was Fujiko working for when they were televising the wedding?",
+    "answers": ["NBK"]
+  },
+  {
+    "question": "(Love Hina) In the Winter Special of Love Hina, we see Kitsune and Shinobu try to get money by selling manga, one of Akamatsu-sensei's old works. What series are they selling?",
+    "answers": ["Ai Ga Tomaranai"]
+  },
+  {
+    "question": "The pilots in Macross Plus were testing two new veritechs, the YF-19 and the YF-21. These names are based on US military convention. What do the letters represent?",
+    "answers": ["Prototype &amp; Fighter"]
+  },
+  {
+    "question": "The Macross universe references products of a well known computer company. What does Macross sound like?",
+    "answers": ["Mac OS"]
+  },
+  {
+    "question": "(Oh! My Goddess!) What sort of motorcycle does Keiichi ride?",
+    "answers": ["BMW Boxer"]
+  },
+  {
+    "question": "(Oh! My Goddess!) In episode 5, what does Skuld use for energy food?",
+    "answers": ["Ice cream"]
+  },
+  {
+    "question": "(Oh! My Goddess!) What pizza company was Keichi working for in Episode 5?",
+    "answers": ["Domino's"]
+  },
+  {
+    "question": "(Oh! My Goddess!) In episode 5, what brand computer does Skuld use to do the calculations for the Ultimate Magic Circle?",
+    "answers": ["NIC PC"]
+  },
+  {
+    "question": "In episode 3, on the back of Keichi's jacket, there's a homophonic version of his name. What is it?",
+    "answers": ["K-1"]
+  },
+  {
+    "question": "(Project A-ko) Captain Napolipolita is a parody of what well-known anime character?",
+    "answers": ["Captain Harlock"]
+  },
+  {
+    "question": "(Project A-ko) Who are Magami Eiko's (A-ko) parents?",
+    "answers": ["Clark Kent &amp; Diana Prince"]
+  },
+  {
+    "question": "(Patlabor) To operate the labor, what password does Noa enter into the console?",
+    "answers": ["Alphonse"]
+  },
+  {
+    "question": "(Patlabor) In the second movie, what are the words used to disable Tsuge's computer-controlled blimps quoting?",
+    "answers": ["Gospel of Luke"]
+  },
+  {
+    "question": "(Neon Genesis Evangelion) In episode 23, a word is spray-painted at the back of Rei's underground room. What is the word?",
+    "answers": ["strangeness"]
+  },
+  {
+    "question": "(Neon Genesis Evangelion) In episode 15, there is a key scene in which Rei is inside an overgrown test-tube. What do the surrounding letters represent?",
+    "answers": ["nucleotides"]
+  },
+  {
+    "question": "(Neon Genesis Evangelion) Which well-known company did Asuka use to move her personal belongings into Misato's apartment?",
+    "answers": ["DHL"]
+  },
+  {
+    "question": "(Neon Genesis Evangelion) What character is Misato based on?",
+    "answers": ["Fujiko Mine", "Mine Fujiko"]
+  },
+  {
+    "question": "(Neon Genesis Evangelion) What saying is printed across the bottom of the NERV crest?",
+    "answers": ["God's In His Heaven. All's Right With The World."]
+  },
+  {
+    "question": "It's reported that Shoujo Kakumei Utena was heavily influenced by another anime/manga series. Which one?",
+    "answers": ["Versailles no Bara", "Rose of Versailles"]
+  },
+  {
+    "question": "(Speed Racer) The main character's Japanese name, Mifune Go, is named after a real person? Who?",
+    "answers": ["Toshiro Mifune", "Mifune Toshiro"]
+  },
+  {
+    "question": "(Video Girl Ai) What is Moteuchi Yota's nickname?",
+    "answers": ["Motenai Moteuichi"]
+  },
+  {
+    "question": "When Lain gets her new Navi, what is the operating system that it's running?",
+    "answers": ["Copeland"]
+  },
   {
     "question": "The characters of Log Horizon are trapped in what game?",
     "answers": ["Elder Tale"]
@@ -1928,7 +2088,7 @@
     },
     {
         "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
-        "answers": ["&quot;How disgusting.&quot;", "How disgusting"]
+        "answers": ["How disgusting"]
     },
     {
         "question": "In &quot;One Piece&quot;, what does &quot;the Pirate King&quot; mean to the captain of the Straw Hat Pirates?",
