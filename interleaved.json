@@ -1,4 +1,2964 @@
-[ 
+[
+    {
+        "question": "Sailor Moon) Which two Sailor Senshi are lesbian lovers?",
+        "answers": ["Sailor Uranus and Sailor Neptune"]
+    },
+    {
+        "question": "(Sailor Moon) Usagi Tsukino is better known as?",
+        "answers": ["Sailor Moon"]
+    },
+    {
+        "question": "(Sailor Moon) Which superhero franchise inspired Sailor Moon?",
+        "answers": ["Super Sentai"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Moon the soldier of?",
+        "answers": ["Love and Justice"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Mercury the soldier of?",
+        "answers": ["Water"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Mars the soldier of?",
+        "answers": ["Fire"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Jupiter the soldier of?",
+        "answers": ["Thunder"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Venus the soldier of?",
+        "answers": ["Beauty"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Pluto the soldier of?",
+        "answers": ["Spacetime"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Uranus the soldier of?",
+        "answers": ["Sky"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Neptune the soldier of?",
+        "answers": ["Ocean"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Saturn the soldier of?",
+        "answers": ["Destruction"]
+    },
+    {
+        "question": "(Sailor Moon) Who is the oldest Sailor Senshi?",
+        "answers": ["Sailor Pluto"]
+    },
+    {
+        "question": "(Sailor Moon) What does the Japanese title translate to?",
+        "answers": ["Pretty Soldier Sailor Moon"]
+    },
+    {
+        "question": "(Sailor Moon) How many episodes does the original Sailor Moon have?",
+        "answers": ["200 episodes"]
+    },
+    {
+        "question": "(Sailor Moon) How many animated films were there?",
+        "answers": ["3 films"]
+    },
+    {
+        "question": "(Sailor Moon) Which other magic girl Sailor Moon shares an animation team with Sailor Moon?",
+        "answers": ["Revolutionary Girl Utena"]
+    },
+    {
+        "question": "(Sailor Moon) What does Usagi Tsukino translate to?",
+        "answers": ["Rabbit on the moon"]
+    },
+    {
+        "question": "(Sailor Moon) What hair color did Sailor Moon originally have?",
+        "answers": ["Pink"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Uranus' helicopter's name?",
+        "answers": ["Tenoumaru"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Neptune's helicopter's name?",
+        "answers": ["Kaiohmaru"]
+    },
+    {
+        "question": "(Sailor Moon) Which Sailor Scout was the only one to awaken completely on her own?",
+        "answers": ["Sailor Neptune"]
+    },
+    {
+        "question": "(Sailor Moon) Which company was interested in acquiring the rights to Sailor Moon in 1997?",
+        "answers": ["The Walt Disney Company"]
+    },
+    {
+        "question": "(Sailor Moon) How many known Sailor Scouts are there?",
+        "answers": ["20 Scouts", "Twenty Scouts"]
+    },
+    {
+        "question": "(Sailor Moon) Which song is Sailor Moon mentioned in?",
+        "answers": ["One Week by The Barenaked Ladies"]
+    },
+    {
+        "question": "(Sailor Moon) What make and model is Sailor Uranus' car?",
+        "answers": ["A Ferrari 512M", "Ferrari 512M"]
+    },
+    {
+        "question": "(Sailor Moon) Which Sailor Scout was the most popular in Japan?",
+        "answers": ["Sailor Mercury"]
+    },
+    {
+        "question": "(Sailor Moon) Which character gets themself kidnapped the most often?",
+        "answers": ["Tuxedo Mask"]
+    },
+    {
+        "question": "(Sailor Moon) Which villain was the only one to die twice in the Sailor Moon?",
+        "answers": ["Kaolinite"]
+    },
+    {
+        "question": "(Sailor Moon) What is Sailor Mercury allergic to?",
+        "answers": ["Love letters"]
+    },
+    {
+        "question": "(Outlaw Star) Which of these species resembles birds?",
+        "answers": ["Silgrians"]
+    },
+    {
+        "question": "(Outlaw Star) Which assassin lead the Anten Seven?",
+        "answers": ["Hitoriga"]
+    },
+    {
+        "question": "(Outlaw Star) What fighting style was used by Iraga?",
+        "answers": ["Hoke Shadow Boxing"]
+    },
+    {
+        "question": "(Outlaw Star) What ship component does dragonite fuel?",
+        "answers": ["Munchousen Drive"]
+    },
+    {
+        "question": "(Outlaw Star) 'Tao Magic' is the short way to say what?",
+        "answers": ["Senjutsu"]
+    },
+    {
+        "question": "(Outlaw Star) How many times do we see Aisha successfully transform into her beast form?",
+        "answers": ["Two"]
+    },
+    {
+        "question": "(Outlaw Star) Counting him, how many men were in CrackerJack's gang?",
+        "answers": ["5 Men", "five men"]
+    },
+    {
+        "question": "(Outlaw Star) What is the name of the spaceship piloted by Gene Starwind?",
+        "answers": ["Outlaw Star"]
+    },
+    {
+        "question": "(Outlaw Star) What is the operating system for the Outlaw Star?",
+        "answers": ["Gilliam II"]
+    },
+    {
+        "question": "(Outlaw Star) What species is Aisha Clan Clan?",
+        "answers": ["Ctarl-Ctarl", "Ctarl Ctarl"]
+    },
+    {
+        "question": "(Outlaw Star) What is the first caster shell Gene Starwind used?",
+        "answers": ["#3", "Number 3"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) What type of guitar did Ryusuke lend to Koyuki?",
+        "answers": ["Gibson Les Paul"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) What song does Maho and Yukio sing together in the pool?",
+        "answers": ["Moon on the water"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) What Beatles song does Yukio sing at the Greatful Sounds Music Festival?",
+        "answers": ["I've Got A Feeling"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) Ryusuke owns a dog, what is his name?",
+        "answers": ["Beck"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) What postion is Saku in Beck?",
+        "answers": ["Drummer"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) What postion is Ray in Beck?",
+        "answers": ["Lead Guitarist"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) What postion is Chiba in Beck?",
+        "answers": ["Main Vocalist"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) What postion is Taira in Beck?",
+        "answers": ["Bass Guitarist"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) Who is the main protaganist of Beck?",
+        "answers": ["Yukio Tanaka"]
+    },
+    {
+        "question": "(Beck) Mongolian Chop Squad) Whats the opening theme for Beck) Mongolian Chop Squad?",
+        "answers": ["Hit in the USA"]
+    },
+    {
+        "question": "(Steins;Gate) What anime does Kurisu's online name reference?",
+        "answers": ["Dragon Ball Z", "DBZ"]
+    },
+    {
+        "question": "(Steins;Gate) What is written on the Lab Members badge?",
+        "answers": ["OSHMKUFA 2010"]
+    },
+    {
+        "question": "(Steins;Gate) Who does Mayuri work for?",
+        "answers": ["Faris"]
+    },
+    {
+        "question": "(Steins;Gate) What is Mayuri's favorite hobby?",
+        "answers": ["Cosplay"]
+    },
+    {
+        "question": "(Steins;Gate) How old is Mayuri Shiina?",
+        "answers": ["16 Years"]
+    },
+    {
+        "question": "(Steins;Gate) Who ate Kurisu's pudding?",
+        "answers": ["Rintaro Okabe", "Rintaro", "Okabe"]
+    },
+    {
+        "question": "(Steins;Gate) How old is Rintaro Okabe?",
+        "answers": ["18 Years"]
+    },
+    {
+        "question": "(Steins;Gate) What will happen to Mayuri when Mayuri's pocket watch stops working?",
+        "answers": ["Death", "Dies", "die", "She dies"]
+    },
+    {
+        "question": "(Steins;Gate) Who is the sixth person that is shown in the opening?",
+        "answers": ["Rintaro Okabe", "Rintaro", "Okabe"]
+    },
+    {
+        "question": "(Steins;Gate) What is the name of Okabe's Laboratory?",
+        "answers": ["Future Gadget Laboratory"]
+    },
+    {
+        "question": "(Steins;Gate) What name does Okabe call Kurisu?",
+        "answers": ["Christina"]
+    },
+    {
+        "question": "(Steins;Gate) In what area of Tokyo does Steins;Gate take place?",
+        "answers": ["Akihabara"]
+    },
+    {
+        "question": "(Steins;Gate) Why does Mayuri stay with Okabe?",
+        "answers": ["She's his hostage", "Hostage"]
+    },
+    {
+        "question": "(Steins;Gate) What is Rintaro's landlord's name?",
+        "answers": ["Yugo", "Mr Braun"]
+    },
+    {
+        "question": "(Steins;Gate) What is Okabe's favorite drink?",
+        "answers": ["Dk Pepper"]
+    },
+    {
+        "question": "(Steins;Gate) Steins;Gate is a collaboration work between 5pb. and who?",
+        "answers": ["Nitro+"]
+    },
+    {
+        "question": "(Steins;Gate) What does the team call the text messages sent to the past?",
+        "answers": ["Dmail", "d-mail"]
+    },
+    {
+        "question": "(Steins;Gate) What nickname does Rintaro give to Moeka?",
+        "answers": ["Shining Finger"]
+    },
+    {
+        "question": "(Steins;Gate) What is the name of the ability to retain memories across world lines?",
+        "answers": ["Reading Steiner"]
+    },
+    {
+        "question": "(Black Rock Shooter) Who was Black Rock Shooter's counterpart?",
+        "answers": ["Mato Kuroi", "Kuroi Mato"]
+    },
+    {
+        "question": "(Black Rock Shooter) Who was Dead Master's counterpart?",
+        "answers": ["Yomi Takanashi", "Takanashi Yomi"]
+    },
+    {
+        "question": "(Black Rock Shooter) Who was Strength's counterpart?",
+        "answers": ["Yuu Koutari", "Koutari Yuu"]
+    },
+    {
+        "question": "(Black Rock Shooter) Who was Chariot's counterpart?",
+        "answers": ["Kagari Izuriha", "Kagari", "Izuriha Kagari"]
+    },
+    {
+        "question": "(Black Rock Shooter) What color of macaron did Kagari give to Yomi and herself?",
+        "answers": ["Pretty-Colored", "Yellow and Pink", "Pink and Yellow"]
+    },
+    {
+        "question": "(Black Rock Shooter) What color of macarons did Kagari give to Mato?",
+        "answers": ["Dirty-Colored", "Brown"]
+    },
+    {
+        "question": "(Black Rock Shooter) What color of macaron did Kagari give to herself?",
+        "answers": ["Yellow"]
+    },
+    {
+        "question": "(Black Rock Shooter) What does Chariot shoot?",
+        "answers": ["Macaron's"]
+    },
+    {
+        "question": "(Black Rock Shooter) What does Dead Master weild?",
+        "answers": ["Scythe"]
+    },
+    {
+        "question": "(Black Rock Shooter) Near the end of Black Rock Shooter what does Kuroi Mato see?",
+        "answers": ["Rainbow", "All Colors"]
+    },
+    {
+        "question": "(Black Rock Shooter) What book does Kuroi Mato enjoy the most?",
+        "answers": ["The Tiny Bird & The Colors", "The Tiny Bird"]
+    },
+    {
+        "question": "(Black Rock Shooter) What color are sneezes referred to in the book that Kuroi Mato enjoys?",
+        "answers": ["Pink"]
+    },
+    {
+        "question": "(Black Rock Shooter) What does the bird do at the end of The Tiny Bird & The Colors?",
+        "answers": ["dies"]
+    },
+    {
+        "question": "(Black Rock Shooter) Who was Black Gold Saw's counterpart?",
+        "answers": ["Saya Irino", "Irino Saya", "Saya", "Irino"]
+    },
+    {
+        "question": "(Black Rock Shooter) Who was the captain of the basketball club?",
+        "answers": ["Arata Kohata", "Arata", "Kohata Arata"]
+    },
+    {
+        "question": "(Black Rock Shooter) Who did the captian of the basketball club confess to?",
+        "answers": ["Takuu"]
+    },
+    {
+        "question": "(Black Rock Shooter) When did the first episode of the anime air?",
+        "answers": ["February 2012"]
+    },
+    {
+        "question": "(Black Rock Shooter) When did the OVA air?",
+        "answers": ["July 2010"]
+    },
+    {
+        "question": "(Black Rock Shooter) What sport club did Yomi join?",
+        "answers": ["Volleyball"]
+    },
+    {
+        "question": "(Black Rock Shooter) What was the shape of the phone charm that Mato bought for Yomi?",
+        "answers": ["A Star", "Star "]
+    },
+    {
+        "question": "(Chrno Crusade) Who did Chrono kill by an accident?",
+        "answers": ["Mary Magdelene"]
+    },
+    {
+        "question": "(Chrno Crusade) Who is Rosette's brother?",
+        "answers": ["Joshua Christopher"]
+    },
+    {
+        "question": "(Chrno Crusade) How old was Rosette when she met Chrono?",
+        "answers": ["12 years old"]
+    },
+    {
+        "question": "(Chrno Crusade) How many apostles are there?",
+        "answers": ["Seven"]
+    },
+    {
+        "question": "(Chrno Crusade) Who is the Main protaganist?",
+        "answers": ["Rosette Christopher"]
+    },
+    {
+        "question": "(Chrno Crusade) What occupation is Rosette?",
+        "answers": ["Exorcist"]
+    },
+    {
+        "question": "(Chrno Crusade) Who does Rosette work for?",
+        "answers": ["Magdalene Order", "Order of Magdelene"]
+    },
+    {
+        "question": "(Chrno Crusade) Who is Chrono's brother?",
+        "answers": ["Aion"]
+    },
+    {
+        "question": "(Chrno Crusade) Where was Chrono Born?",
+        "answers": ["Pandaemonium"]
+    },
+    {
+        "question": "(Chrno Crusade) What does Rosette use as a seal for Chrono?",
+        "answers": ["Pocket Watch"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is the internet called in the show?",
+        "answers": ["The Wired"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is the full name for the main protaganist?",
+        "answers": ["Lain Iwakura", "Iwakura Lain"]
+    },
+    {
+        "question": "(Serial Experiments Lain) Who is Lain's Sister?",
+        "answers": ["Mika Iwakura", "Iwakura Mika", "Mika"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 1?",
+        "answers": ["Weird"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 2?",
+        "answers": ["Girls"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 3?",
+        "answers": ["Psyche"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 4?",
+        "answers": ["Religion"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 5?",
+        "answers": ["Distortion"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 6?",
+        "answers": ["Kids"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 7?",
+        "answers": ["Society"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 8?",
+        "answers": ["Rumors"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 9?",
+        "answers": ["Protocol"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 10?",
+        "answers": ["Love"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 11?",
+        "answers": ["Infornography"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 12?",
+        "answers": ["Landscape"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Layer 13?",
+        "answers": ["Ego"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Lains first computer?",
+        "answers": ["Navi"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What did Lain consume in Layer 2?",
+        "answers": ["Accela"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is the Opening song called?",
+        "answers": ["Duvet"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is the techno club called in the show?",
+        "answers": ["Cyberia"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What costume does Lain wear to bed?",
+        "answers": ["Bear costume"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What was Copland OS based off of in real life?",
+        "answers": ["Apple", "Apple Computers"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What text-to-speech software does the show use to say Layer## at the beginning?",
+        "answers": ["Whisper", "Mac OS text-to-speech"]
+    },
+    {
+        "question": "(Serial Experiments Lain) Present Day",
+        "answers": ["Present Time"]
+    },
+    {
+        "question": "(Serial Experiments Lain) 'No matter where you are, _______________'",
+        "answers": ["we're all connected", "we are all connected"]
+    },
+    {
+        "question": "(Serial Experiments Lain) Who commits suicide in the first Layer?",
+        "answers": ["Chisa Yomoda", "Yomada Chisa", "Chisa"]
+    },
+    {
+        "question": "(Serial Experiments Lain) Who was the only person to kiss Lain?",
+        "answers": ["Taro"]
+    },
+    {
+        "question": "(Serial Experiments Lain) How old is Lain?",
+        "answers": ["14 years old"]
+    },
+    {
+        "question": "(Serial Experiments Lain) Who is the DJ in Cyberia?",
+        "answers": ["JJ"]
+    },
+    {
+        "question": "(Serial Experiments Lain) What is Lain considered?",
+        "answers": ["God"]
+    },
+    {
+        "question": "(Pokemon) Which pokemon was supposed to be Ash's original starter?",
+        "answers": ["Clefairy"]
+    },
+    {
+        "question": "(Pokemon) Which pokemon was named after a dinosaur?",
+        "answers": ["Aerodactyl"]
+    },
+    {
+        "question": "(Pokemon) What other character did Ash's original voice actor voice?",
+        "answers": ["Delia Ketchum"]
+    },
+    {
+        "question": "(Pokemon) Which pokemon did they leave out of the original Pokerap?",
+        "answers": ["Mew"]
+    },
+    {
+        "question": "(Pokemon) Which pokemon is the creator's favorite?",
+        "answers": ["Poliwhirl"]
+    },
+    {
+        "question": "(Pokemon) Which legendary pokemon is the only one that Ash hasn't encountered?",
+        "answers": ["Raikou"]
+    },
+    {
+        "question": "(Pokemon) Who voiced Mewtwo in the first Pokemon movie?",
+        "answers": ["Masachika Ichimura"]
+    },
+    {
+        "question": "(Pokemon) What is the first non Pokemon animal that was seen on the show?",
+        "answers": ["A worm"]
+    },
+    {
+        "question": "(Pokemon) Which eeveelution hasn't been owned by either a main or recurring character?",
+        "answers": ["Jolteon"]
+    },
+    {
+        "question": "(Pokemon) Which pokemon does Cilan fear?",
+        "answers": ["Purrloin"]
+    },
+    {
+        "question": "(Pokemon) Which main character was the first to leave the group in the middle of a journey for a period of time?",
+        "answers": ["Clemont"]
+    },
+    {
+        "question": "(Pokemon) Which rival is the only one to nickname their pokemon?",
+        "answers": ["Ritchie"]
+    },
+    {
+        "question": "(Pokemon) Which recurring human character is the first to share their voice actor with a pokemon?",
+        "answers": ["Sawyer"]
+    },
+    {
+        "question": "(Pokemon) Which regular rival is the first to be seen capturing a pokemon and receiving a gym badge on screen?",
+        "answers": ["Paul"]
+    },
+    {
+        "question": "(Pokemon) Which character is the only male to have made it to the Top 4 of the Sinnoh Grand Festival?",
+        "answers": ["Nando"]
+    },
+    {
+        "question": "(Pokemon) Which character had a running gag that involved them chasing their runaway rice ball?",
+        "answers": ["Morrison"]
+    },
+    {
+        "question": "(Pokemon) Which rival has a team made of only eeveelutions?",
+        "answers": ["Virgil"]
+    },
+    {
+        "question": "(Pokemon) Which Unova rival was the only one to encounter Team Rocket?",
+        "answers": ["Bianca"]
+    },
+    {
+        "question": "(Pokemon) Which former trainer companion is the only one to not have a Pokemon capable of Mega Evolution or a Pokemon that can evolve into one?",
+        "answers": ["Cilan"]
+    },
+    {
+        "question": "Which genre is aimed at girls between 10-18?",
+        "answers": ["shoujo"]
+    },
+    {
+        "question": "When was the first known Japanese animation produced?",
+        "answers": ["1917"]
+    },
+    {
+        "question": "The practice of dressing up like anime characters in Japan is called?",
+        "answers": ["cosplay"]
+    },
+    {
+        "question": "In yaoi pairing, what is the 'receiving', 'bottom', or passive partner known as?",
+        "answers": ["uke"]
+    },
+    {
+        "question": "In yaoi pairing, what is the 'top' or dominant partner known as?",
+        "answers": ["seme"]
+    },
+    {
+        "question": "What is a popular anime/manga character archetype that derives from the Japanese pronunciation of the English word 'cool'?",
+        "answers": ["kuudere", "coodere"]
+    },
+    {
+        "question": "What is a Japanese term for a character development process that describes a person who is initially cold and even hostile towards another person before gradually showing their warm side over time?",
+        "answers": ["tsundere"]
+    },
+    {
+        "question": "Type of anime aimed at young boys under the age of fifteen?",
+        "answers": ["shonen"]
+    },
+    {
+        "question": "Type of anime aimed at young men between the ages of 15-24?",
+        "answers": ["seinen"]
+    },
+    {
+        "question": "Type of anime aimed at adult women?",
+        "answers": ["josei"]
+    },
+    {
+        "question": "Type of anime largely focused on one distinct aspect) pilotable robots?",
+        "answers": ["mecha"]
+    },
+    {
+        "question": "Type of anime about innocent young girls using a magical object to transform into a superhero version of themselves?",
+        "answers": ["magical girl", "mahou shoujo", "majokko"]
+    },
+    {
+        "question": "Type of anime which do not show sexual intercourse or genitalia, but sexual themes are referenced?",
+        "answers": ["ecchi"]
+    },
+    {
+        "question": "Type of anime where one male character, the protagonist, at the center of a group of female characters who are all vying for his romantic affections?",
+        "answers": ["harem"]
+    },
+    {
+        "question": "What character type is a heroine that started as a villain trying to kill the protagonist but then switched to his side after falling in love with him?",
+        "answers": ["mayadere"]
+    },
+    {
+        "question": "It's common in anime for a character to pull their lower eyelid down to taunt someone. What is this called?",
+        "answers": ["akanabe"]
+    },
+    {
+        "question": "What anime character type is known as a quiet and often antisocial character?",
+        "answers": ["dandere(What character type is very loving and gentle to someone before their devotion becomes destructive in nature, often through violence and/or brutality?", "yandere"]
+    },
+    {
+        "question": "(Sword Art Online) What was the first entry of the SAO manga written for?",
+        "answers": ["A novel writing contest", "writing contest"]
+    },
+    {
+        "question": "(Sword Art Online) What is the game SAO the first of",
+        "answers": ["It's the first virtual reality?", "VRMMORPG"]
+    },
+    {
+        "question": "(Sword Art Online) What is the castle in SAO called?",
+        "answers": ["Aincrad"]
+    },
+    {
+        "question": "(Sword Art Online) How many floors does the castle in SAO have?",
+        "answers": ["100 floors"]
+    },
+    {
+        "question": "(Sword Art Online) What button does SAO not allow you to use?",
+        "answers": ["The log out button", "log out"]
+    },
+    {
+        "question": "(Sword Art Online) How many people were killed playing SAO?",
+        "answers": ["3853 people"]
+    },
+    {
+        "question": "(Sword Art Online) How many unique skills are there in Sword Art Online?",
+        "answers": ["10 skills"]
+    },
+    {
+        "question": "(Sword Art Online) What novel inspired SAO?",
+        "answers": ["Realtime"]
+    },
+    {
+        "question": "(Sword Art Online) What is Kirito's Unique Skill?",
+        "answers": ["Dual Blades"]
+    },
+    {
+        "question": "(Sword Art Online) What processor does Kirito's homemade computer use?",
+        "answers": ["A 24Ghz", "24Ghz"]
+    },
+    {
+        "question": "(Sword Art Online) What is Asuna's rapier called?",
+        "answers": ["Lambent Light"]
+    },
+    {
+        "question": "(Sword Art Online) What is Lizbeth's original hair color?",
+        "answers": ["Brown"]
+    },
+    {
+        "question": "(Sword Art Online) What is Kirito's favorite food",
+        "answers": ["Teriyaki chicken burgers?", "Teriyaki burgers"]
+    },
+    {
+        "question": "(Sword Art Online) What is Kirito's favorite skill?",
+        "answers": ["Fishing"]
+    },
+    {
+        "question": "(Sword Art Online) What year does SAO takes place in?",
+        "answers": ["year 2022"]
+    },
+    {
+        "question": "(Sword Art Online) What are the heroes in SAO called?",
+        "answers": ["Clearers"]
+    },
+    {
+        "question": "(Sword Art Online) How long is the period between the death of the player in the game and the death of the player in real life?",
+        "answers": ["10 seconds"]
+    },
+    {
+        "question": "(Sword Art Online) What is Kirito's full name?",
+        "answers": ["Kirigaya Kazuto", "Kazuto"]
+    },
+    {
+        "question": "(Sword Art Online) What other anime takes place in the same universe as SAO?",
+        "answers": ["Accel World"]
+    },
+    {
+        "question": "(Sword Art Online) Who developed the game Sword Art Online in the Sword Art Online anime?",
+        "answers": ["Kayaba Akihiko", "Heathcliff"]
+    },
+    {
+        "question": "(Sword Art Online) What is the guild that consists of only Player Killers called?",
+        "answers": ["The Laughing Coffin", "Laughing Coffin"]
+    },
+    {
+        "question": "(Sword Art Online) When was Asuna born?",
+        "answers": ["September 30th, 2007"]
+    },
+    {
+        "question": "(Sword Art Online) How old was Kiriko when he first began playing Sword Art Online?",
+        "answers": ["14 years old"]
+    },
+    {
+        "question": "(Sword Art Online) How old was Kiriko when he finishes playing Sword Art Online?",
+        "answers": ["16 years old"]
+    },
+    {
+        "question": "(Sword Art Online) Who was Kirito's in game wife?",
+        "answers": ["Yuuki Asuna", "Asuna Yuuki", "Asuna"]
+    },
+    {
+        "question": "(Sword Art Online) When was Kirito born?",
+        "answers": ["October 7th, 2008"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Reo Kawamura ->",
+        "answers": ["Mai Sawaguchi", "Mai"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Mai Sawaguchi ->",
+        "answers": ["Reo Kawamura", "Reo"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Kaede Kitajima ->",
+        "answers": ["Sara Kitajima", "Sara"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Sara Kitajima ->",
+        "answers": ["Kaede Kitajima", "Kaede"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Nanami Oda ->",
+        "answers": ["Yuna Matsubara", "Yuna"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Yuna Matsubara ->",
+        "answers": ["Nanami Oda", "Nanami"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Takako Suminoe ->",
+        "answers": ["Runa Horaisen", "Runa"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Runa Horaisen ->",
+        "answers": ["Takako Suminoe", "Takako"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) Eris Shitogi ->",
+        "answers": ["Shizuku Kirishima", "Shizuku"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) What is Reo Kawamura's dere?",
+        "answers": ["Tsundere"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) What is Sara Kitajima's job?",
+        "answers": ["Model", "Professional Model"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) What is Sara Kitajima and Kaede Kitajima's family relationship?",
+        "answers": ["Cousin"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuke wo) What is Nanami Oda's favorite food?",
+        "answers": ["Strawberry"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuki wo) What is the english title?",
+        "answers": ["A Kiss for the Petals"]
+    },
+    {
+        "question": "(Sono Hanabira ni Kuchizuki wo) What is the School name?",
+        "answers": ["St. Micheal's School For Girls", "St. Micheal's"]
+    },
+    {
+        "question": "(Bleach) What fruit is also the nickname of Ichigo Kurosaki?",
+        "answers": ["Strawberry"]
+    },
+    {
+        "question": "(Bleach) How much time does it take for a shinigami to learn how to perform bankai under Kisuke Urahara's method?",
+        "answers": ["3 days"]
+    },
+    {
+        "question": "(Bleach) Who does Ichigo deeply respect?",
+        "answers": ["William Shakespeare"]
+    },
+    {
+        "question": "(Bleach) Which character was the first character that the creator created?",
+        "answers": ["Rukia Kuchiki"]
+    },
+    {
+        "question": "(Bleach) Why did Bambietta get the nickname Bastardbine?",
+        "answers": ["Her notorious cruelty", "Her cruelty", "Cruelty"]
+    },
+    {
+        "question": "(Bleach) Who is the only character that Ichigo has killed?",
+        "answers": ["Ginjo"]
+    },
+    {
+        "question": "(Bleach) Where is Urahara's shop located in?",
+        "answers": ["Karakura Town"]
+    },
+    {
+        "question": "(Bleach) Which Tove Jansson character inspired Kisuke?",
+        "answers": ["Snufkin"]
+    },
+    {
+        "question": "(Bleach) What does Ichigo's name mean according to his father?",
+        "answers": ["He who protects"]
+    },
+    {
+        "question": "(Bleach) What is Ichigo's blood type?",
+        "answers": ["A type"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) Who is the creator's favorite character?",
+        "answers": ["Jean Kirstein"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) Which character did Hajame Isayama originally plan to kill off?",
+        "answers": ["Sasha Blouse", "Sasha"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) How old is Levi?",
+        "answers": ["Over 30 years old"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) Which two characters' names references an infamous cannibal?",
+        "answers": ["Sawney and Bean"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) Which character shares its voice actor with the famous vocaloid Hatsune Miku?",
+        "answers": ["Ymir"]
+    },
+    {   
+        "question": "(Shingeki no Kyojin) What does Eren's name mean in Turkish?",
+        "answers": ["Saint"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) Which country blacklisted this anime?",
+        "answers": ["China"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) What is Mikasa's name taken from",
+        "answers": ["A Japanese battleship?", "A Battleship"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) How many people do the corps lose when they kill a Titan?",
+        "answers": ["30 people"]
+    },
+    {
+        "question": "(Shingeki no Kyojin) What is Marco's birthday?",
+        "answers": ["June 16th"]
+    },
+    {
+        "question": "(Hetalia) What is Italy's birthdate?",
+        "answers": ["March 17th "]
+    },
+    {
+        "question": "(Hetalia) Which character was based on a friend of Hidekaz Himaruya?",
+        "answers": ["Germany"]
+    },
+    {
+        "question": "(Hetalia) Japan was stated to be able to _____ in a Christmas event?",
+        "answers": ["Imitate voices"]
+    },
+    {
+        "question": "(Hetalia) What is America's human name?",
+        "answers": ["Alfred F. Jones"]
+    },
+    {
+        "question": "(Hetalia) Which other Himaruya webcomic character is England modeled after?",
+        "answers": ["Hikone Katom"]
+    },
+    {
+        "question": "(Hetalia) France's most undesirable relationship is with?",
+        "answers": ["Spain"]
+    },
+    {
+        "question": "(Hetalia) How tall is Russia?",
+        "answers": ["5 foot 11 inches"]
+    },
+    {
+        "question": "(Hetalia) Which character is immortal?",
+        "answers": ["China"]
+    },
+    {
+        "question": "(Hetalia) Which character thinks of Spain as an older brother?",
+        "answers": ["Italy"]
+    },
+    {
+        "question": "(Hetalia) South Italy's hair is darker than his brother because he has____ _____",
+        "answers": ["Arabic blood"]
+    },
+    {
+        "question": "(Dragon Ball Z) Which two villains has Goku killed?",
+        "answers": ["Yakon and Kid Buu"]
+    },
+    {
+        "question": "(Dragon Ball Z) How much money did the Japanese government raise to fun a DBZ movie?",
+        "answers": ["50 million yen"]
+    },
+    {
+        "question": "(Dragon Ball Z) What gender is Goku's Japanese voice actor?",
+        "answers": ["Female"]
+    },
+    {
+        "question": "(Dragon Ball Z) What does Bulma's name roughly translates to?",
+        "answers": ["Panties"]
+    },
+    {
+        "question": "(Dragon Ball Z) Who is Akira Toriyama's favorite character?",
+        "answers": ["Piccolo"]
+    },
+    {
+        "question": "(Dragon Ball Z) What is Goku's mother's name?",
+        "answers": ["Gine"]
+    },
+    {
+        "question": "(Dragon Ball Z) Which fight was the longest fight in anime history?",
+        "answers": ["Goku vs Frieza"]
+    },
+    {
+        "question": "(Dragon Ball Z) What does Vegeta fear?",
+        "answers": ["Worms"]
+    },
+    {
+        "question": "(Dragon Ball Z) Why does Krillin have six dots on his forehead?",
+        "answers": ["His training"]
+    },
+    {
+        "question": "(Dragon Ball Z) Which character is a baseball player?",
+        "answers": ["Yamcha"]
+    },
+    {
+        "question": "(High School of the Dead) Who said) 'No matter how tainted you are, I'll still admire you for as long as I'm alive”?",
+        "answers": ["Takashi Komuro", "Takashi", "Kumuro"]
+    },
+    {
+        "question": "(High School of the Dead) Which character is the first to realize that knocking “Them” over is almost as effective as killing them?",
+        "answers": ["Saeko Busujima", "Saeko", "Busujima"]
+    },
+    {
+        "question": "(High School of the Dead) Which character was based off of a manga creator?",
+        "answers": ["Kohta Hirano", "Kohta", "Hirano"]
+    },
+    {
+        "question": "(High School of the Dead) Who's just learning to ride a bike?",
+        "answers": ["Alice Maresato", "Alice", "Maresato"]
+    },
+    {
+        "question": "(High School of the Dead) Which character is the key to the group's survival?",
+        "answers": ["Shizuka Marikawa"]
+    },
+    {
+        "question": "(High School of the Dead) Who said) “Girls are complex aren't they?”?",
+        "answers": ["Rei Miyamoto", "Rei", "Miyamoto"]
+    },
+    {
+        "question": "(High School of the Dead) Who killed Seto?",
+        "answers": ["Saya Takagi", "Saya", "Takagi"]
+    },
+    {
+        "question": "(High School of the Dead) Who is one of the first to get bitten?",
+        "answers": ["Kyoko Hayashi"]
+    },
+    {
+        "question": "(High School of the Dead) Who are the two girls that have a noticeable small bust?",
+        "answers": ["Misuzu Ichijou and Asami Nakaoka", "Misuzu and Asami", "Ichijou and Nakaoka"]
+    },
+    {
+        "question": "(High School of the Dead) Who is one of Koichi Shido's followers?",
+        "answers": ["Miku Yuuki", "Miku", "Yuuki"]
+    },
+    {
+        "question": "(Death Note) Who is the first to find out that Light is Kira?",
+        "answers": ["Misa Amane"]
+    },
+    {
+        "question": "(Death Note) What is Mello's real name?",
+        "answers": ["Mero Mihael Keehl"]
+    },
+    {
+        "question": "(Death Note) Which episode does L die in?",
+        "answers": ["Episode 25"]
+    },
+    {
+        "question": "(Death Note) What rank was Light in high school when he found the death note?",
+        "answers": ["Senior"]
+    },
+    {
+        "question": "(Death Note) Who was the Shinigami that fell in love with Misa?",
+        "answers": ["Gelus"]
+    },
+    {
+        "question": "(Death Note) How many humans have used a notebook's pags to kill?",
+        "answers": ["Seven"]
+    },
+    {
+        "question": "(Death Note) How many days was Light held in solitary confinement by the taskforce?",
+        "answers": ["50 days"]
+    },
+    {
+        "question": "(Death Note) What was the color of Higuchi's car when he was being chased by Aiber and Mogi?",
+        "answers": ["Red"]
+    },
+    {
+        "question": "(Death Note) What is L's fighting style?",
+        "answers": ["Capoeira"]
+    },
+    {
+        "question": "(Soul Eater) Who published Soul Eater?",
+        "answers": ["Square Enix", "Yen Press", "Gangan Comics"]
+    },
+    {
+        "question": "(Soul Eater) What does Maka's name mean when rearranged?",
+        "answers": ["Scythe"]
+    },
+    {
+        "question": "(Soul Eater) What is the name of Black Star's weapon partner?",
+        "answers": ["Tsubaki Nakatsukasa", "Tsubaki"]
+    },
+    {
+        "question": "(Soul Eater) What is Death the Kid's blood type?",
+        "answers": ["D"]
+    },
+    {
+        "question": "(Soul Eater) What is Soul's theme song",
+        "answers": ["So Scandalous?", "Scandalous"]
+    },
+    {
+        "question": "(Soul Eater) What is the name Tsubaki a reference to",
+        "answers": ["The Japanese camellia flower?", "camellia flower"]
+    },
+    {
+        "question": "(Soul Eater) What is Liz and Patty's last name a reference to",
+        "answers": ["The Thompson submachine gun?", "Thompson"]
+    },
+    {
+        "question": "(Soul Eater) Which two ghosts are known as Evil Spirits?",
+        "answers": ["Wrath of the Pharaoh and Flying Dutchman", "Flying Dutchman and Wrath of the Pharaoh"]
+    },
+    {
+        "question": "(Soul Eater) In the official popularity poll, what rank did Spirit Albarn take?",
+        "answers": ["11th rank"]
+    },
+    {
+        "question": "(Soul Eater) Who is Asura's weapon partner?",
+        "answers": ["Vajra"]
+    },
+    {
+        "question": "(Detective Conan) When was Shinichi's first case?",
+        "answers": ["On a plane to LA", "plane to LA"]
+    },
+    {
+        "question": "(Detective Conan) Where does Shinichi's detective talent come from?",
+        "answers": ["His father"]
+    },
+    {
+        "question": "(Detective Conan) Which two characters have a fear of ghosts?",
+        "answers": ["Ran and Kazuha"]
+    },
+    {
+        "question": "(Detective Conan) Which character is left handed?",
+        "answers": ["Gin"]
+    },
+    {
+        "question": "(Detective Conan) What does Kaito Kid really likes?",
+        "answers": ["Chocolate"]
+    },
+    {
+        "question": "(Detective Conan) When was the first time that Shinichi met Kid?",
+        "answers": ["The Clocktower Heist"]
+    },
+    {
+        "question": "(Detective Conan) Who is Gosho Aoyama's favorite character?",
+        "answers": ["Ran Mouri"]
+    },
+    {
+        "question": "(Detective Conan) What pop band has a singer that is Conan's Japanese voice actor?",
+        "answers": ["Two Mix"]
+    },
+    {
+        "question": "(Detective Conan) What is the poison that Conan swallowed?",
+        "answers": ["APTX 4869"]
+    },
+    {
+        "question": "(Detective Conan) What is Shinichi's date of birth?",
+        "answers": ["May 4th"]
+    },
+    {
+        "question": "(Girls und Panzer) What WWII tank country did Anzio Girls High School mainly support?",
+        "answers": ["Italy", "Italian"]
+    },
+    {
+        "question": "(Girls und Panzer) What WWII tank country did Saunders University High School mainly support?",
+        "answers": ["U.S.", "United States", "USA", "US"]
+    },
+    {
+        "question": "(Girls und Panzer) What WWII tank country did St. Gloriana Girls High School mainly support?",
+        "answers": ["Britan", "Great Britan", "British"]
+    },
+    {
+        "question": "(Girls und Panzer) What WWII tank country did Pravda Girls High School mainly support?",
+        "answers": ["Russia", "Russian", "USSR"]
+    },
+    {
+        "question": "(Girls und Panzer) What WWII tank country did Kuromorimine Girls High School mainly support?",
+        "answers": ["German", "Germany", "Nazi"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Anglerfish Team drive?",
+        "answers": ["Panzer IV Ausf.D", "Panzer IV"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Turtle Team drive?",
+        "answers": ["Panzer 38", "Jagdpanzer 38", "German Panzer 38", "Czech Panzer 38"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Hippo Team drive?",
+        "answers": ["German StuG. III Ausf.F", "German StuG. III", "StuG. III"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Duck Team drive?",
+        "answers": ["Type 89"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Rabbit Team drive?",
+        "answers": ["M3 Lee"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Mallard Team drive?",
+        "answers": ["Char B-1"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Anteater Team drive?",
+        "answers": ["Type-3 Chi-Nu"]
+    },
+    {
+        "question": "(Girls und Panzer) What tank did the Leopon Team drive?",
+        "answers": ["Tiger"]
+    },
+    {
+        "question": "(Girls und Panzer) Who was the Commander of Pravda Girls High School?",
+        "answers": ["Katyusha"]
+    },
+    {
+        "question": "(Girls und Panzer) Who was the Commander of Saunders Girls High School?",
+        "answers": ["Kay"]
+    },
+    {
+        "question": "(Girls und Panzer) Who was the Commander of St. Gloriana Girls High School?",
+        "answers": ["Darjeeling"]
+    },
+    {
+        "question": "(Girls und Panzer) Who was the Commander of Ooarai Girls High School?",
+        "answers": ["Miho Nishizumi", "Miho"]
+    },
+    {
+        "question": "(Girls und Panzer) Who was the Commander of Kuromorimine Girls High School?",
+        "answers": ["Maho Nishizumi", "Maho"]
+    },
+    {
+        "question": "(Girls und Panzer) Who was the Commander of Anzio Girls High School?",
+        "answers": ["Anchovy"]
+    },
+    {
+        "question": "(Gundam series) What rank is Shiro Amada?",
+        "answers": ["Ensign"]
+    },
+    {
+        "question": "(Gundam series) Who fired “the shot that changed history”?",
+        "answers": ["Jamil Neate"]
+    },
+    {
+        "question": "(Gundam series) Which two characters are twins?",
+        "answers": ["Kira and Cagalli"]
+    },
+    {
+        "question": "(Gundam series) Who is the main character?",
+        "answers": ["Garrod Ran", "Judau Ashta", "Kamille Bidan", "Kira Yamato"]
+    },
+    {
+        "question": "(Gundam series) What is the first Gundam activated in the series?",
+        "answers": ["Duel"]
+    },
+    {
+        "question": "(Gundam series) Who was the real life person that George de Sand's name is derived from?",
+        "answers": ["A French novelist", "George Gabriel Sand"]
+    },
+    {
+        "question": "(Gundam series) What is the name of the ship that Jamil, Garrod. Tiffa, and others all call home?",
+        "answers": ["Freeden"]
+    },
+    {
+        "question": "(Gundam series) Where does Mobile Suit Gundam) The 08th MS Team take place?",
+        "answers": ["Southeast Asia"]
+    },
+    {
+        "question": "(Gundam series) Who is Kira's best friend that he has to fight against?",
+        "answers": ["Athrun Zala"]
+    },
+    {
+        "question": "(Gundam series) What was the first Gundam ever designed?",
+        "answers": ["Wing Gundam Zero"]
+    },
+    {
+        "question": "(Gundam series) What does “Kampfer” mean in German?",
+        "answers": ["Warrior"]
+    },
+    {
+        "question": "(Gundam series) Why does Shinn want to kill Kira?",
+        "answers": ["Kira killed Stellar"]
+    },
+    {
+        "question": "(Gundam series) Who does Shiro fall in love with?",
+        "answers": ["Aina Saharin"]
+    },
+    {
+        "question": "(Gundam series) Who is Kamille's love interest for most of Mobile Suit Zeta Gundam?",
+        "answers": ["Four Murasame"]
+    },
+    {
+        "question": "(Gundam series) Who's Cagalli supposed to marry before Kira interrupts?",
+        "answers": ["Yuna Seiran"]
+    },
+    {
+        "question": "(D.Gray-Man) Which character can't swim",
+        "answers": ["Yu Kanda?", "Kanda Yu"]
+    },
+    {
+        "question": "(D.Gray-Man) How old is Yu",
+        "answers": ["9 years old?", "19 years old"]
+    },
+    {
+        "question": "(D.Gray-Man) Who was Yu's first kiss?",
+        "answers": ["Jiji"]
+    },
+    {
+        "question": "(D.Gray-Man) Yu is the ____ out of the four according to Hoshino?",
+        "answers": ["Dumbest"]
+    },
+    {
+        "question": "(D.Gray-Man) Who's the third most popular character?",
+        "answers": ["Lavi", "Rabi"]
+    },
+    {
+        "question": "(D.Gray-Man) Lavi's blood type is?",
+        "answers": ["O"]
+    },
+    {
+        "question": "(D.Gray-Man) Who does Lavi share a room with?",
+        "answers": ["Bookman"]
+    },
+    {
+        "question": "(D.Gray-Man) What is Lavi's occupation?",
+        "answers": ["Chronicler"]
+    },
+    {
+        "question": "(D.Gray-Man) Who is Komui's younger sister?",
+        "answers": ["Lenalee", "Rinari"]
+    },
+    {
+        "question": "(D.Gray-Man) Which country is Lenalee's home country?",
+        "answers": ["China"]
+    },
+    {
+        "question": "(D.Gray-Man) What is Lenalee's birthday?",
+        "answers": ["May 11th"]
+    },
+    {
+        "question": "(D.Gray-Man) How much does Lenalee weigh?",
+        "answers": ["106 Lbs"]
+    },
+    {
+        "question": "(D.Gray-Man) Which character is ambidextrous",
+        "answers": ["Allen Walker?", "Aren Woka"]
+    },
+    {
+        "question": "(D.Gray-Man) Which holiday is Allen's birthday?",
+        "answers": ["Christmas"]
+    },
+    {
+        "question": "(D.Gray-Man) What's Yu's nickname for Allen?",
+        "answers": ["Bean sprout"]
+    },
+    {
+        "question": "(D.Gray-Man) Which character is also considered an Earl?",
+        "answers": ["Allen", "Aren"]
+    },
+    {
+        "question": "(Black Lagoon) What is Benny's race?",
+        "answers": ["Jewish-American"]
+    },
+    {
+        "question": "(Black Lagoon) What is Dutch's weapon?",
+        "answers": ["A shotgun"]
+    },
+    {
+        "question": "(Black Lagoon) Rock is a _ ____ turned unwitting pirate of the Black Lagoon?",
+        "answers": ["Japanese businessman", "Businessman"]
+    },
+    {
+        "question": "(Black Lagoon) What is one of the other names that Revy goes by?",
+        "answers": ["Rebecca", "Two Hands"]
+    },
+    {
+        "question": "(Black Lagoon) Who is the leader of the Manisarera Cartel?",
+        "answers": ["Abrego"]
+    },
+    {
+        "question": "(Black Lagoon) Who is a survivor of the Battle of the Atlantic?",
+        "answers": ["Wentzel H. Ahbe"]
+    },
+    {
+        "question": "(Black Lagoon) Which character's real name is Sofiya Pavlovna?",
+        "answers": ["Balalaika"]
+    },
+    {
+        "question": "(Black Lagoon) Who's race is Vietnamese?",
+        "answers": ["Bao"]
+    },
+    {
+        "question": "(Black Lagoon) How is Boris easily identified?",
+        "answers": ["A scar on his face"]
+    },
+    {
+        "question": "(Black Lagoon) The boss of Sun Yee On is?",
+        "answers": ["Bai Ji-Shan Chang"]
+    },
+    {
+        "question": "(Black Lagoon) How did Chin die?",
+        "answers": ["He got blown up"]
+    },
+    {
+        "question": "(Black Lagoon) Which character bears a resemblance to a character in Mobile Suit Gundam Wing?",
+        "answers": ["Fernando Garcia Lovelace"]
+    },
+    {
+        "question": "(Black Lagoon) Who is the boss of Asahi Heavy Industrial?",
+        "answers": ["Kageyama"]
+    },
+    {
+        "question": "(Black Lagoon) Who worked with Shenhua at one time?",
+        "answers": ["Leigharch"]
+    },
+    {
+        "question": "(Black Lagoon) Who is affiliated with the Nazis?",
+        "answers": ["Lord Alfred"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Who's the oldest member?",
+        "answers": ["Mori", "Honey-senpai"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Which member is the last to find out that Haruhi is a girl?",
+        "answers": ["Tamaki Suoh"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Who's the youngest member?",
+        "answers": ["Kaoru"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Who is only in the anime and not in the manga?",
+        "answers": ["Eclair Tonnerre", "Eclair"]
+    },
+    {
+        "question": "(Ouran High School Host Club) How can one differentiate between the Hiitachin?",
+        "answers": ["Their hair parting"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Which two characters fight for Haruhi's hand in marriage?",
+        "answers": ["Kyoya and Tamaki"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Who has the host of the natural type?",
+        "answers": ["Haruhi"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Who wants to be Mori's apprentice?",
+        "answers": ["Ritsu Kasanoda", "Ritsu"]
+    },
+    {
+        "question": "(Ouran High School Host Club) What is Haruhi afraid of the most?",
+        "answers": ["Thunder and lightning"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Which two characters are cousins?",
+        "answers": ["Mori and Honey"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Which two characters is Mori very protective of?",
+        "answers": ["Haruhi and Honey"]
+    },
+    {
+        "question": "(Ouran High School Host Club) What are Tamaki's two ethnicities?",
+        "answers": ["French and Japanese"]
+    },
+    {
+        "question": "(Ouran High School Host Club) Which character is the first to figure out that Haruhi is a girl?",
+        "answers": ["Kyoya"]
+    },
+    {
+        "question": "(Ouran High School Host Club) When upset or depressed where does Tamaki go?",
+        "answers": ["In a corner"]
+    },
+    {
+        "question": "(Ouran High School Host Club) What kind of business is Kyoya's family in?",
+        "answers": ["Medical"]
+    },
+    {
+        "question": "(Angel Beats) How did Hideki die?",
+        "answers": ["A car crash", "car accident", "car crash"]
+    },
+    {
+        "question": "(Angel Beats) Who is Hideki's best friend?",
+        "answers": ["Ooyama"]
+    },
+    {
+        "question": "(Angel Beats) Who is the main protagonist of the Heaven's Door manga?",
+        "answers": ["Hideki Hinata", "Hinata Hideki", "Hinata"]
+    },
+    {
+        "question": "(Angel Beats) What is Yuri's nickname?",
+        "answers": ["Yurippe"]
+    },
+    {
+        "question": "(Angel Beats) Who's last gesture for Kanade was giving her a hug?",
+        "answers": ["Yuri's", "Yuri"]
+    },
+    {
+        "question": "(Angel Beats) What was Otonashi's reason for living",
+        "answers": ["His little sister?", "little sister", "Imouto"]
+    },
+    {
+        "question": "(Angel Beats) Which other anime character does Otonashi resemble?",
+        "answers": ["Kyousuke Natsume", "Kyousuke"]
+    },
+    {
+        "question": "(Angel Beats) Who wanted to do something in the medical field",
+        "answers": ["Yuzuru Otonashi", "Otonashi Yuzuru", "Otonashi"]
+    },
+    {
+        "question": "(Angel Beats) What does Angel tell Otonashi in the third drama CD?",
+        "answers": ["She loves him", "loves him"]
+    },
+    {
+        "question": "(Angel Beats) What does the kanji for Kanade mean?",
+        "answers": ["To play a tune", "play a tune", "play a song"]
+    },
+    {
+        "question": "(Angel Beats) What is Kanade's blood type?",
+        "answers": ["A"]
+    },
+    {
+        "question": "(Angel Beats) Who does Yuri remind Chaa of?",
+        "answers": ["His wife"]
+    },
+    {
+        "question": "(Angel Beats) Who is the fourth member to join the SSS?",
+        "answers": ["Chaa"]
+    },
+    {
+        "question": "(Angel Beats) What is the name of Chaa's English voice actor?",
+        "answers": ["Illich Guardiola"]
+    },
+    {
+        "question": "(Angel Beats) Which character just appears in the anime and not the manga?",
+        "answers": ["Fujimaki"]
+    },
+    {
+        "question": "(Angel Beats) Fujimaki can wield these two weapons at the same time?",
+        "answers": ["Shirasaya and PPSh41"]
+    },
+    {
+        "question": "(Angel Beats) Fujimaki can't _____.",
+        "answers": ["Swim"]
+    },
+    {
+        "question": "(Angel Beats) What does Hisako's name mean?",
+        "answers": ["Long lived child"]
+    },
+    {
+        "question": "(Angel Beats) Which instrument can Hisako play?",
+        "answers": ["An electric guitar", "A guitar"]
+    },
+    {
+        "question": "(Angel Beats) Which original band member is the only one that doesn't have a surname?",
+        "answers": ["Hisako"]
+    },
+    {
+        "question": "(Ghost Hunt) What is John Brown's zodiac sign?",
+        "answers": ["Capricorn"]
+    },
+    {
+        "question": "(Ghost Hunt) Who's the cutest male of the group?",
+        "answers": ["John Brown", "John"]
+    },
+    {
+        "question": "(Ghost Hunt) What accent does John speak with?",
+        "answers": ["Kansai"]
+    },
+    {
+        "question": "(Ghost Hunt) Who will be portrayed in the live action film by Mizuki Yamamoto?",
+        "answers": ["Masako Hara", "Misako"]
+    },
+    {
+        "question": "(Ghost Hunt) What is Masako's blood type?",
+        "answers": ["AB"]
+    },
+    {
+        "question": "(Ghost Hunt) When was the only time didn't Masako wear a kimono?",
+        "answers": ["The last episode"]
+    },
+    {
+        "question": "(Ghost Hunt) Who has a birthday of January 11th?",
+        "answers": ["Lin Koujo", "Lin"]
+    },
+    {
+        "question": "(Ghost Hunt) What color is Lin's eyes?",
+        "answers": ["Blue", "Gray", "Blue and gray"]
+    },
+    {
+        "question": "(Ghost Hunt) How old is Lin?",
+        "answers": ["27 years old"]
+    },
+    {
+        "question": "(Ghost Hunt) Who has a special connection to live trees?",
+        "answers": ["Ayako Matsuzaki", "Ayako"]
+    },
+    {
+        "question": "(Ghost Hunt) How tall is Ayako?",
+        "answers": ["5 foot 7 inches", "169 cm"]
+    },
+    {
+        "question": "(Ghost Hunt) What is Ayako's occupation?",
+        "answers": ["Priestess", "Doctor"]
+    },
+    {
+        "question": "(Ghost Hunt) What is Naru's real name",
+        "answers": ["Kazuya Shibuya?", "Oliver Davis"]
+    },
+    {
+        "question": "(Ghost Hunt) Who usually comes to various SPR member's rescue?",
+        "answers": ["Naru"]
+    },
+    {
+        "question": "(Ghost Hunt) What is Naru's zodiac sign?",
+        "answers": ["Virgo"]
+    },
+    {
+        "question": "(Ghost Hunt) What is one name that Houshou Takigawa goes by?",
+        "answers": ["Monk", "Bou-san"]
+    },
+    {
+        "question": "(Ghost Hunt) Which character has the O blood type?",
+        "answers": ["Houshou Takigawa", "Houshou", "Monk", "Bou-san"]
+    },
+    {
+        "question": "(Ghost Hunt) Who will portray Monk in the live action film?",
+        "answers": ["Yosuke Kawamura"]
+    },
+    {
+        "question": "(Ghost Hunt) Who has been attacked the most by spirits?",
+        "answers": ["Mai", "Mai Taniyama"]
+    },
+    {
+        "question": "(Ghost Hunt) Who did the author of the series pair Mai with?",
+        "answers": ["Naru"]
+    },
+    {
+        "question": "(Ghost Hunt) What holiday was Mai born one day before?",
+        "answers": ["Fourth of July"]
+    },
+    {
+        "question": "(Black Butler) What is Ciel's title?",
+        "answers": ["Earl of Phantomhive"]
+    },
+    {
+        "question": "(Black Butler) Why won't Ciel allow cats in his house?",
+        "answers": ["He's allergic", "It would please Sebastian"]
+    },
+    {
+        "question": "(Black Butler) What does Ciel's name mean in French?",
+        "answers": ["Sky"]
+    },
+    {
+        "question": "(Black Butler) When did Ciel die?",
+        "answers": ["August 26th, 1889"]
+    },
+    {
+        "question": "(Black Butler) What is Ciel's favorite flower?",
+        "answers": ["Sterling silver rose"]
+    },
+    {
+        "question": "(Black Butler) Who is Ciel's fiancee?",
+        "answers": ["Elizabeth Midford"]
+    },
+    {
+        "question": "(Black Butler) Who does the author and Ciel's voice actor ship him with?",
+        "answers": ["Sebastian", "Sebastian Michaelis"]
+    },
+    {
+        "question": "(Black Butler) What condition does Ciel share with his mother?",
+        "answers": ["Asthma"]
+    },
+    {
+        "question": "(Black Butler) Which character is fond of horseback riding?",
+        "answers": ["Ciel Phantomhive", "Ciel"]
+    },
+    {
+        "question": "(Black Butler) When's Ciel's birthday?",
+        "answers": ["December 14th, 1875"]
+    },
+    {
+        "question": "(Black Butler) How tall is Sebastian?",
+        "answers": ["185 cm", " 6 foot 1 inch"]
+    },
+    {
+        "question": "(Black Butler) How does Sebastian appear when summoned?",
+        "answers": ["A raven", "A crow"]
+    },
+    {
+        "question": "(Black Butler) Which Japanese word does Sebastian's last name come from?",
+        "answers": ["Mikairi"]
+    },
+    {
+        "question": "(Black Butler) Who was the Anicent Egyptian mummy that Sebastian met?",
+        "answers": ["Smenkhkare"]
+    },
+    {
+        "question": "(Black Butler) What does Sebastian claim responsibility doing five hundred years ago?",
+        "answers": ["The Black Death"]
+    },
+    {
+        "question": "(Black Butler) What about Sebastian is a secret according to Yana Toboso?",
+        "answers": ["His age"]
+    },
+    {
+        "question": "(Black Butler) What is one of Sebastian's alias",
+        "answers": ["Black", "Mr. Michaelis"]
+    },
+    {
+        "question": "(Black Butler) Sebastian doesn't _____.",
+        "answers": ["Sleep"]
+    },
+    {
+        "question": "(Black Butler) Who is Sebastian named after?",
+        "answers": ["A dog", "Ciel's dog"]
+    },
+    {
+        "question": "(Black Butler) What does Sebastian help Elizabeth with in the first episode?",
+        "answers": ["A ball"]
+    },
+    {
+        "question": "(Higashi no Eden) What title comes from the Portuguese word that means selection?",
+        "answers": ["Selecao"]
+    },
+    {
+        "question": "(Higashi no Eden) The OP contains a line from which William Shakespeare play?",
+        "answers": ["Julius Caesar"]
+    },
+    {
+        "question": "(Higashi no Eden) Which character's name comes from the Portuguese word that means judge?",
+        "answers": ["Juiz"]
+    },
+    {
+        "question": "(Higashi no Eden) Which American radio station does the taxi driver plays in episode 1?",
+        "answers": ["WPGC 95.5"]
+    },
+    {
+        "question": "(Higashi no Eden) What baseball team's hat is the taxi driver wearing in episode 1?",
+        "answers": ["Washington Nationals"]
+    },
+    {
+        "question": "(Higashi no Eden) What Meg Ryan movie is referenced by Akira in episode 2?",
+        "answers": ["Kate and Leopold"]
+    },
+    {
+        "question": "(Higashi no Eden) Which classic movie does the big earth statue in episode three refers to?",
+        "answers": ["Scarface"]
+    },
+    {
+        "question": "(Higashi no Eden) Who's older) Akira or Saki?",
+        "answers": ["Saki"]
+    },
+    {
+        "question": "(Higashi no Eden) What is Akira's occupation?",
+        "answers": ["Prince"]
+    },
+    {
+        "question": "(Higashi no Eden) Which movie is the only one that Akira and his mother saw together?",
+        "answers": ["Dumbo"]
+    },
+    {
+        "question": "(Higashi no Eden) What character's affections does Saki not return?",
+        "answers": ["Ohsuji"]
+    },
+    {
+        "question": "(Higashi no Eden) Who's taller) Saki or Akira?",
+        "answers": ["Akira"]
+    },
+    {
+        "question": "(Higashi no Eden) Who's the leader of Eden of the East?",
+        "answers": ["Kazuomi Hirasaawa", "Kazuomi"]
+    },
+    {
+        "question": "(Higashi no Eden) What number Selecao is Akira?",
+        "answers": ["Number 9"]
+    },
+    {
+        "question": "(Higashi no Eden) What does NEET stand for?",
+        "answers": ["Not in Education, Employment, or Training"]
+    },
+    {
+        "question": "(Higashi no Eden) Who is Selecao number 5?",
+        "answers": ["Hajime Hiura'Hajime"]
+    },
+    {
+        "question": "(Higashi no Eden) Who is known as Panties?",
+        "answers": ["Yutaka Itazu", "Yutaka"]
+    },
+    {
+        "question": "(Higashi no Eden) Which character is really good with computers?",
+        "answers": ["Mikuru Katsuhara", "Mikuru"]
+    },
+    {
+        "question": "(Higashi no Eden) Who is Saki's older sister?",
+        "answers": ["Asako"]
+    },
+    {
+        "question": "(Higashi no Eden) Who is Selecao number 11?",
+        "answers": ["Kuroha Shiratori", "Diana Shiratori", "Diana", "Kuroha"]
+    },
+    {
+        "question": "(Noragami) Who often wastes money even when in need of it?",
+        "answers": ["Yato"]
+    },
+    {
+        "question": "(Noragami) What does Noragami mean?",
+        "answers": ["Stray god"]
+    },
+    {
+        "question": "(Noragami) What is Yato's real name?",
+        "answers": ["Yaboku"]
+    },
+    {
+        "question": "(Noragami) Yukine is assumed to have died from _____ _____ _____ _____.",
+        "answers": ["Abuse from his father"]
+    },
+    {
+        "question": "(Noragami) What does Yukine mean?",
+        "answers": ["Sound of the snow"]
+    },
+    {
+        "question": "(Noragami) Yuki means _____.",
+        "answers": ["Snow"]
+    },
+    {
+        "question": "(Noragami) Who accidentally named Yaboku Yato?",
+        "answers": ["Sakura"]
+    },
+    {
+        "question": "(Noragami) What song is Yato's English theme song?",
+        "answers": ["Don't You Forget About Me by Simple Minds"]
+    },
+    {
+        "question": "(Noragami) What phobia does Yato have?",
+        "answers": ["Athazagoraphobia"]
+    },
+    {
+        "question": "(Noragami) What is Iki's birthday?",
+        "answers": ["June 28th "]
+    },
+    {
+        "question": "(Noragami) What is Iki's character song?",
+        "answers": ["Mitai Sekai"]
+    },
+    {
+        "question": "(Noragami) Which Soul Eater character does Yukine share his English voice actor with?",
+        "answers": ["Soul Eater Evans", "Soul", "Soul Eater"]
+    },
+    {
+        "question": "(Noragami) Besides his true name, what is one other name that Yato goes by?",
+        "answers": ["Yatty", "Jersey", "Tracksuit"]
+    },
+    {
+        "question": "(Noragami) What is Yato the god of?",
+        "answers": ["War", "Calamity", "Depravity", "Fortune"]
+    },
+    {
+        "question": "(Noragami) What color are Yukine's eyes?",
+        "answers": ["Amber"]
+    },
+    {
+        "question": "(Noragami) What is Iki's race?",
+        "answers": ["Human", "Half-ayakanshi"]
+    },
+    {
+        "question": "(Noragami) Who are Hiyori's closest friends?",
+        "answers": ["Yama and Ami"]
+    },
+    {
+        "question": "(Noragami) Which two characters sung Ai wa Yaoyorozu?",
+        "answers": ["Kofuku and Daikoku"]
+    },
+    {
+        "question": "(Noragami) What is Ebisu attempting to gain control of?",
+        "answers": ["Phantoms"]
+    },
+    {
+        "question": "(Noragami) Which character has a tendency to get lost?",
+        "answers": ["Ebisu"]
+    },
+    {
+        "question": "(Seto no Hanayome) What song does Sun use to power up Nagasumi?",
+        "answers": ["Song of the Heroes"]
+    },
+    {
+        "question": "(Seto no Hanayome) Who said) Honor among thieves is honor under the seas?",
+        "answers": ["Sun Seto'Sun"]
+    },
+    {
+        "question": "(Seto no Hanayome) Who is the long lost sibling of Akeno Shiranui?",
+        "answers": ["Masa"]
+    },
+    {
+        "question": "(Seto no Hanayome) Masa and _ _ are the only two who accept the relationship between Nagasumi and Sun.",
+        "answers": ["Sun's mother"]
+    },
+    {
+        "question": "(Seto no Hanayome) What is Maki's title?",
+        "answers": ["Spiral Shell", "Conch shell"]
+    },
+    {
+        "question": "(Seto no Hanayome) Who tries to eat Nagasumi so that the Merfolk can go home?",
+        "answers": ["Shark Fujishiro", "Shark"]
+    },
+    {
+        "question": "(Seto no Hanayome) Who is Lunar's English voice actor?",
+        "answers": ["Cherami Leigh"]
+    },
+    {
+        "question": "(Seto no Hanayome) Who disrupted the wedding between Lunar and Nagasumi?",
+        "answers": ["Sun"]
+    },
+    {
+        "question": "(Seto no Hanayome) Which character's father is modeled after the Terminator?",
+        "answers": ["Lunar"]
+    },
+    {
+        "question": "(Seto no Hanayome) Which two characters' personalities are similar?",
+        "answers": ["Mawari and Sun"]
+    },
+    {
+        "question": "(Seto no Hanayome) Which character's human form is a parody of a character from Dragon Ball?",
+        "answers": ["Saru", "Chimp", "Hideyoshi", "Hideyoshi Sarutobi"]
+    },
+    {
+        "question": "(Seto no Hanayome) Who is a meganekko?",
+        "answers": ["Class Rep"]
+    },
+    {
+        "question": "(Seto no Hanayome) Which phobia does Kai have?",
+        "answers": ["Agoraphobia"]
+    },
+    {
+        "question": "(Seto no Hanayome) Who's true form is a repulsive and overweight catfish?",
+        "answers": ["Yoshiuo Minamoto", "Yoshiuo"]
+    },
+    {
+        "question": "(Seto no Hanayome) Yoshiuo is the _ _ of the anime.",
+        "answers": ["Final antigonist"]
+    },
+    {
+        "question": "(Seto no Hanayome) Which anime is this series a carbon copy of?",
+        "answers": ["Rosario+Vampire"]
+    },
+    {
+        "question": "(Seto no Hanayome) What anime shares a director with this series?",
+        "answers": ["Magikano"]
+    },
+    {
+        "question": "(Seto no Hanayome) What is the opening theme called?",
+        "answers": ["Romantic Summer by SUN&LUNAR"]
+    },
+    {
+        "question": "(Seto no Hanayome) Which Dragon Ball character makes a cameo in episode 18?",
+        "answers": ["Goku"]
+    },
+    {
+        "question": "(Seto no Hanayome) Name one of the animes that make a character cameo in episode 16?",
+        "answers": ["Dragon Ball Z", "Neon Genesis Evangelion"]
+    },
+    {
+        "question": "(Golden Time) What does Linda mean in Spanish and Portuguese?",
+        "answers": ["Beautiful", "Pretty"]
+    },
+    {
+        "question": "(Golden Time) Who is Koko's 'future husband'?",
+        "answers": ["Mitsuo Yanagisawa", "Mitsuo"]
+    },
+    {
+        "question": "(Golden Time) What was Linda's response to Banri?",
+        "answers": ["Yes"]
+    },
+    {
+        "question": "(Golden Time) Who is Mitsuo flirting with at the end of the anime?",
+        "answers": ["Linda"]
+    },
+    {
+        "question": "(Golden Time) Who is Koko's boyfriend?",
+        "answers": ["Banri"]
+    },
+    {
+        "question": "(Golden Time) Who is the fiancee of Linda's brother?",
+        "answers": ["Konyakusha"]
+    },
+    {
+        "question": "(Golden Time) Besides Linda who else was Banri's classmate?",
+        "answers": ["Abu", "Itou", "Koba", "Meiko'Nakagawa"]
+    },
+    {
+        "question": "(Golden Time) Who lives next door to Banri?",
+        "answers": ["Nana"]
+    },
+    {
+        "question": "(Golden Time) Who is called Miss Ultrasonic?",
+        "answers": ["Oka Chinami", "Oka"]
+    },
+    {
+        "question": "(Golden Time) Who created VJ?",
+        "answers": ["Satou Takaya", "Satou"]
+    },
+    {
+        "question": "(Golden Time) Who are members of Tea Club?",
+        "answers": ["Shii and Sao"]
+    },
+    {
+        "question": "(Golden Time) Linda's voice actress is _______.",
+        "answers": ["Ai Kayano"]
+    },
+    {
+        "question": "(Golden Time) Banri's voice actor is _______.",
+        "answers": ["Makoto Furukawa"]
+    },
+    {
+        "question": "(Golden Time) Koko's voice actress is _____.",
+        "answers": ["Yui Horie"]
+    },
+    {
+        "question": "(Golden Time) Mitsuo's voice actor is _____.",
+        "answers": ["Kaito Ishikawa"]
+    },
+    {
+        "question": "(Golden Time) What happened in the final episode between Koko and Banri?",
+        "answers": ["They got engaged"]
+    },
+    {
+        "question": "(Golden Time) What episode did Koko get arrested?",
+        "answers": ["Episode 7"]
+    },
+    {
+        "question": "(Golden Time) What does Banri's spirit promise Banri?",
+        "answers": ["To make his life a living hell"]
+    },
+    {
+        "question": "(Golden Time) Why did Mitsuo enter Fukurai?",
+        "answers": ["To get away from Koko"]
+    },
+    {
+        "question": "(Golden Time) How does Koko find out where Mitsuo is going to school?",
+        "answers": ["Her family donated to the school", "family donation", "family donated"]
+    },
+    {
+        "question": "(Danganronpa) Who is the creator's favorite character?",
+        "answers": ["Touko Fukawa", "Touko", "Toko"]
+    },
+    {
+        "question": "(Danganronpa) What's one name that Kyoko Kirigiri go by?",
+        "answers": ["Ultimate Detective", "DSC number 919"]
+    },
+    {
+        "question": "(Danganronpa) What's Makoto Naegi's zodiac sign?",
+        "answers": ["Aquarius"]
+    },
+    {
+        "question": "(Danganronpa) What is Monokuma afraid of?",
+        "answers": ["Mice"]
+    },
+    {
+        "question": "(Danganronpa) One of Makoto's other names are?",
+        "answers": ["Ultimate Hope", "Ultimate Lucky Student"]
+    },
+    {
+        "question": "(Danganronpa) What's Makoto's blood type?",
+        "answers": ["A"]
+    },
+    {
+        "question": "(Danganronpa) Makato's chest is _____?",
+        "answers": ["30 inches"]
+    },
+    {
+        "question": "(Danganronpa) What are Makoto's hobbies?",
+        "answers": ["Watching TV and video games", "playing video games and watching tv"]
+    },
+    {
+        "question": "(Danganronpa) What does Makoto mean in Japanese?",
+        "answers": ["Faithfulness"]
+    },
+    {
+        "question": "(Danganronpa) What does Naegi mean in Japanese?",
+        "answers": ["Seedlings"]
+    },
+    {
+        "question": "(Danganronpa) What is Aoi Asahina's birthday?",
+        "answers": ["April 24th "]
+    },
+    {
+        "question": "(Danganronpa) Which self healing technique does Aoi practice?",
+        "answers": ["Kanpu masatsu"]
+    },
+    {
+        "question": "(Danganronpa) How many sports does Aoi play?",
+        "answers": ["6 sports"]
+    },
+    {
+        "question": "(Danganronpa) Hina wears _____ during all seasons.",
+        "answers": ["Shorts"]
+    },
+    {
+        "question": "(Danganronpa) Who is the main antagonist of the series?",
+        "answers": ["Junko Enoshima", "Junko"]
+    },
+    {
+        "question": "(Danganronpa) Who is the twin sister of Junko?",
+        "answers": ["Mukuro"]
+    },
+    {
+        "question": "(Danganronpa) When was Junko's anime debut?",
+        "answers": ["Episode 12"]
+    },
+    {
+        "question": "(Danganronpa) Who killed Chihiro Fujisaki?",
+        "answers": ["Mondo Owada", "Mondo"]
+    },
+    {
+        "question": "(Danganronpa) What is one of the names of Chihiro's creations?",
+        "answers": ["Alter Ego", "Chiaki Nanami", "Usami"]
+    },
+    {
+        "question": "(Danganronpa) Who created the software and program that was used to make Monokuma?",
+        "answers": ["Chihiro"]
+    },
+    {
+        "question": "(Assassination Classroom) What's one other name that Korosensi goes by?",
+        "answers": ["Octopus", "God of Death", "Guinea Pig"]
+    },
+    {
+        "question": "(Assassination Classroom) Which character's hobby is researching?",
+        "answers": ["Nagisa Shiota", "Nagisa", "Shiota Nagisa", "Shiota"]
+    },
+    {
+        "question": "(Assassination Classroom) Math is the favorite subject of which character?",
+        "answers": ["Karma Akabane", "Karma", "Akabane Karuma", "Akabane"]
+    },
+    {
+        "question": "(Assassination Classroom) Who's the head of the school's Broadcasting Club?",
+        "answers": ["Teppei Araki", "Araki Teppei", "Teppei", "Araki"]
+    },
+    {
+        "question": "(Assassination Classroom) Which character graduated from Harvard?",
+        "answers": ["Gakuho Asano", "Gakuho", "Asano Gakuho", "Gakuho"]
+    },
+    {
+        "question": "(Assassination Classroom) Gakushu Asano's specialty is ____ ____ ____.",
+        "answers": ["Being number one"]
+    },
+    {
+        "question": "(Assassination Classroom) Who has the future goal of becoming an architect?",
+        "answers": ["Ryunosuke Chiba", "Chiba Ryunosuke", "Chiba", "Ryunosuke"]
+    },
+    {
+        "question": "(Assassination Classroom) Eiichirou Tokumoto is the Japanese voice actor of which character?",
+        "answers": ["Furyou"]
+    },
+    {
+        "question": "(Assassination Classroom) The code name This Manga is Awesome belongs to?",
+        "answers": ["Yuzuki Fuwa", "Yuzuki", "Fuwa", "Fuwa Yuzuki"]
+    },
+    {
+        "question": "(Assassination Classroom) The Death Roll is the signature move of which character?",
+        "answers": ["Sumire", "Sumire Hara", "Hara", "Hara Sumire"]
+    },
+    {
+        "question": "(Assassination Classroom) Which character's motto is Learning and killing are of one body?",
+        "answers": ["Korosensei"]
+    },
+    {
+        "question": "(Assassination Classroom) Who gave Nagisa the codename Gender?",
+        "answers": ["Rio Nakamura", "Rio", "Nakamura", "Nakamura Rio"]
+    },
+    {
+        "question": "(Assassination Classroom) Karma is depicted as ___ ____.",
+        "answers": ["A devil"]
+    },
+    {
+        "question": "(Assassination Classroom) Teppei is a student of which class?",
+        "answers": ["3-A"]
+    },
+    {
+        "question": "(Assassination Classroom) Gakuho Asano is represented by a ______.",
+        "answers": ["Centipede"]
+    },
+    {
+        "question": "(Assassination Classroom) Which character shares their birthday with Ritsu",
+        "answers": ["Gakushu Asano", "Asano Gakushu", "Asano", "Gakushu"]
+    },
+    {
+        "question": "(Assassination Classroom) Ryunosuke's hobby is _____.",
+        "answers": ["Triangulation"]
+    },
+    {
+        "question": "(Assassination Classroom) Yuzuki's birthday is _____ _____.",
+        "answers": ["February 9th"]
+    },
+    {
+        "question": "(Assassination Classroom) Hara's best subject is ____ _____.",
+        "answers": ["Home Economics"]
+    },
+    {
+        "question": "(Assassination Classroom) According to Aguri, Korosensei is not _______.",
+        "answers": ["Japanese"]
+    },
+    {
+        "question": "(Assassination Classroom) What is Nagasi's zodiac sign?",
+        "answers": ["Cancer"]
+    },
+    {
+        "question": "(Assassination Classroom) Karma's most treasured item is a collection of ____ from around the world.",
+        "answers": ["Spices"]
+    },
+    {
+        "question": "(Assassination Classroom) How old is Gakuho?",
+        "answers": ["41 years old"]
+    },
+    {
+        "question": "(Assassination Classroom) How many languages does Gakushu know how to speak",
+        "answers": ["5 languages"]
+    },
+    {
+        "question": "(Assassination Classroom) Who's in love with Nagisa?",
+        "answers": ["Kaede Kayano", "Akari Yukimura", "Kayano Kaede", "Yukimura Akari", "Kaede", "Akari"]
+    },
+    {
+        "question": "(Accel World) Which character's avatar is called Silver Crow?",
+        "answers": ["Arita Haruyuki", "Arita", "Haruyuki Arita", "Haruyuki"]
+    },
+    {
+        "question": "(Accel World) The legion Arita is in is called __________.",
+        "answers": ["Nega Nebulus", "Black Legion"]
+    },
+    {
+        "question": "(Accel World) What is Arita's zodiac sign?",
+        "answers": ["Taurus"]
+    },
+    {
+        "question": "(Accel World) Arita's birthday is _____ _____.",
+        "answers": ["April 23rd"]
+    },
+    {
+        "question": "(Accel World) What in WW2 particularly interests Arita",
+        "answers": ["German vehicles", "German Tanks"]
+    },
+    {
+        "question": "(Accel World) Which move is Silver Crow's special move?",
+        "answers": ["Headbutt"]
+    },
+    {
+        "question": "(Accel World) Who is Arita's partner?",
+        "answers": ["Kuroyukihime"]
+    },
+    {
+        "question": "(Accel World) Which character used to date Takumu Mayuzumi?",
+        "answers": ["Chiyuri Kurashima", "Chiyuri", "Kurashima Chiyuri", "Kurashima"]
+    },
+    {
+        "question": "(Accel World) How tall is Chiyuri?",
+        "answers": ["156 cm", "5 foot 11 inches"]
+    },
+    {
+        "question": "(Accel World) Chiyuri's weight is ______.",
+        "answers": ["51 kg", "123 Ibs"]
+    },
+    {
+        "question": "(Accel World) What's Chiyuri's avatar called?",
+        "answers": ["Lime Bell"]
+    },
+    {
+        "question": "(Accel World) _____ ______ is Chiyuri's special move.",
+        "answers": ["Citron Call"]
+    },
+    {
+        "question": "(Accel World) What shape is Chiyuri's pin",
+        "answers": ["A cat face", "cat face"]
+    },
+    {
+        "question": "(Accel World) Who is Chiyuri's Japanese voice actress?",
+        "answers": ["Aki Toyosaki"]
+    },
+    {
+        "question": "(Accel World) Which character's name liteally means Black Snow Princess?",
+        "answers": ["Kuroyukihime"]
+    },
+    {
+        "question": "(Accel World) What is Kuroyukihime's blood type?",
+        "answers": ["AB"]
+    },
+    {
+        "question": "(Accel World) Kuroyukihime's classification is ____ _____.",
+        "answers": ["Burst Linker"]
+    },
+    {
+        "question": "(Accel World) Which SAO character does Kuroyukihime share her birthday with?",
+        "answers": ["Asuna Yuuki", "Asuna", "Yuuki Asuna", "Yuuki"]
+    },
+    {
+        "question": "(Accel World) The name of Kuroyukihime's Burst Link Avatar is ____ _____.",
+        "answers": ["Black Lotus"]
+    },
+    {
+        "question": "(Accel World) What is the name of Kuroyukihime's English voice actress?",
+        "answers": ["Kira Buckland"]
+    },
+    {
+        "question": "(Accel World) How old is Kuroyukihime?",
+        "answers": ["14-15 years old"]
+    },
+    {
+        "question": "(Accel World) Which character has the zodiac sign Aries?",
+        "answers": ["Takumu Mayuzumi", "Takumu", "Mayuzumi Takumu", "Mayuzumi"]
+    },
+    {
+        "question": "(Accel World) What level is Takumu?",
+        "answers": ["Level 5"]
+    },
+    {
+        "question": "(Accel World) The date of Takumu's birth is ____ _____.",
+        "answers": ["April 2nd"]
+    },
+    {
+        "question": "(Accel World) How many special moves does Takumu have?",
+        "answers": ["3 special moves"]
+    },
+    {
+        "question": "(Accel World) Takumu's avatar's name is ____ ____",
+        "answers": ["Cyan Pile"]
+    },
+    {
+        "question": "(Accel World) Which legion was Takumu originally aligned with?",
+        "answers": ["Blue Legion", "Leonids"]
+    },
+    {
+        "question": "(Accel World) What does Taku call Kuroyukihime after joining the Black Legion",
+        "answers": ["Master"]
+    },
+    {
+        "question": "(No Game No Life) Which race is represented by the Queen?",
+        "answers": ["Angel", "Flugel", "Heavenly Winged"]
+    },
+    {
+        "question": "(No Game No Life) The race that is represented by the King is ____ ____",
+        "answers": ["The Imanity", "Imanity"]
+    },
+    {
+        "question": "(No Game No Life) What races are represented by a rook?",
+        "answers": ["Elf and Lunamana"]
+    },
+    {
+        "question": "(No Game No Life) Bishops represent which races?",
+        "answers": ["Dwarf and Ex-machina"]
+    },
+    {
+        "question": "(No Game No Life) Vampires and mermaids are represented by which piece?",
+        "answers": ["Knight"]
+    },
+    {
+        "question": "(No Game No Life) Name one race that a pawn represents.",
+        "answers": ["Old Deus", "Phantasma", "Elemental", "Dragonia", "Gigant", "Fairy", "Demonia", "Werebeast"]
+    },
+    {
+        "question": "(No Game No Life) When you have all 16 pieces who do you face?",
+        "answers": ["Tet"]
+    },
+    {
+        "question": "(No Game No Life) Who is the first representative to bet his race's piece?",
+        "answers": ["Sora"]
+    },
+    {
+        "question": "(No Game No Life) The relationship between Sora and Shiro is what?",
+        "answers": ["Step siblings"]
+    },
+    {
+        "question": "(No Game No Life) In the Hebrew alphabet, Tet is the _____ ______.",
+        "answers": ["9th letter"]
+    },
+    {
+        "question": "(No Game No Life) Which game series' characters does Sora imitate in episode 3?",
+        "answers": ["Ace Attorney"]
+    },
+    {
+        "question": "(No Game No Life) In episode 11, which Persona character is shown?",
+        "answers": ["Chie Satonaka"]
+    },
+    {
+        "question": "(No Game No Life) Which pose does Sora do when asking Jibril information about the Eastern Federation",
+        "answers": ["The Gendo Pose"]
+    },
+    {
+        "question": "(No Game No Life) When Stephanie was pounding her head on the wall in episode 11, which Jojo's Bizarre Adventure character's cry does she use?",
+        "answers": ["Brando Dio"]
+    },
+    {
+        "question": "(No Game No Life) The Steins; Gate character _____ ______ appears in episode 11.",
+        "answers": ["Makise Kurisu"]
+    },
+    {
+        "question": "(No Game No Life) How many races have Sora and Shiro not seen",
+        "answers": ["6 races"]
+    },
+    {
+        "question": "(No Game No Life) Which races haven't been seen in the anime at all?",
+        "answers": ["Gigants, Lunamana, and Fairies"]
+    },
+    {
+        "question": "(No Game No Life) What is another name for Flugel",
+        "answers": ["Angel", "Heavenly Winged"]
+    },
+    {
+        "question": "(No Game No Life) Another name for Dhampir is ____.",
+        "answers": ["Vampire"]
+    },
+    {
+        "question": "(No Game No Life) Werebeast has another name the race goes by, what is it?",
+        "answers": ["Warbeast"]
+    },
+    {
+        "question": "(No Game No Life) The official name of mermaids is what?",
+        "answers": ["Seiren"]
+    },
+    {
+        "question": "(No Game No Life) What word does Sora and Shiro's names, when written in Japanese, put together make?",
+        "answers": ["Blank"]
+    },
+    {
+        "question": "(No Game No Life) What is the tenth pledge?",
+        "answers": ["Let's all have fun and play together", "have fun and play together", "play together and have fun"]
+    },
+    {
+        "question": "(No Game No Life) In games, what does each player bet?",
+        "answers": ["Something they agree is equal value", "equal value"]
+    },
+    {
+        "question": "(No Game No Life) What does Shiro mean in Japanese?",
+        "answers": ["White"]
+    },
+    {
+        "question": "(No Game No Life) In a Charapedia poll, which character got ranked 5th smartest anime character?",
+        "answers": ["Sora"]
+    },
+    {
+        "question": "(No Game No Life) Which character's name is an Arabic reading of Gabriel?",
+        "answers": ["Jibril"]
+    },
+    {
+        "question": "(No Game No Life) The Japanese voice actor for this character is Yoko Hikasa. Who is it?",
+        "answers": ["Stephanie Dota", "Stephanie"]
+    },
+    {
+        "question": "(No Game No Life) Which race is 3rd?",
+        "answers": ["Elemental"]
+    },
+    {
+        "question": "(No Game No Life) Lunamanas have which rank?",
+        "answers": ["13th rank"]
+    },
+    {
+        "question": "(Yosuga no Sora) Which character is the only miko?",
+        "answers": ["Akira Amatsume", "Akira", "Amatsume Akira", "Amatsume"]
+    },
+    {
+        "question": "(Yosuga no Sora) In the anime, Akira was the first to share what with her love interest?",
+        "answers": ["A bath"]
+    },
+    {
+        "question": "(Yosuga no Sora) Akira is the only character to have what?",
+        "answers": ["A cat"]
+    },
+    {
+        "question": "(Yosuga no Sora) Who is Akira's half sister?",
+        "answers": ["Kazuha"]
+    },
+    {
+        "question": "(Yosuga no Sora) Where does Akira live?",
+        "answers": ["In a sacred Shinto shrine", "sacred shinto shrine"]
+    },
+    {
+        "question": "(Yosuga no Sora) Akira is the ____ _____ out of the heroines.",
+        "answers": ["2nd smallest"]
+    },
+    {
+        "question": "(Yosuga no Sora) Who's the first character to get molested?",
+        "answers": ["Haruka Kasugano"]
+    },
+    {
+        "question": "(Yosuga no Sora) How many girls like Haruka?",
+        "answers": ["7 girls"]
+    },
+    {
+        "question": "(Yosuga no Sora) How does Haruka cope with the lost of his and Sora's parents?",
+        "answers": ["A stout heart", "stout heart"]
+    },
+    {
+        "question": "(Yosuga no Sora) Haru is the first character to commit what",
+        "answers": ["Incestuous actions"]
+    },
+    {
+        "question": "(Yosuga no Sora) When is Sora and Haru's birthday?",
+        "answers": ["February 5th"]
+    },
+    {
+        "question": "(Yosuga no Sora) The Kasugano twins' zodiac sign is what?",
+        "answers": ["Aquarius"]
+    },
+    {
+        "question": "(Yosuga no Sora) What is Sora Kasugano almost never seen without?",
+        "answers": ["Her stuffed rabbit", "stuffed rabbit"]
+    },
+    {
+        "question": "(Yosuga no Sora) What does Sora have an irrational fear of?",
+        "answers": ["Mosquitoes"]
+    },
+    {
+        "question": "(Yosuga no Sora) Who was the only character to attempt suicide?",
+        "answers": ["Sora"]
+    },
+    {
+        "question": "(Yosuga no Sora) Sora is the only ___ ____ character in the anime,",
+        "answers": ["Anti-social"]
+    },
+    {
+        "question": "(Yosuga no Sora) Who does Sora marry?",
+        "answers": ["Her brother", "Haruka"]
+    },
+    {
+        "question": "(Yosuga no Sora) How tall is Sora?",
+        "answers": ["152 cm", "4 foot 9 inches"]
+    },
+    {
+        "question": "(Yosuga no Sora) Which character is the only ojou-sama of the series?",
+        "answers": ["Kazuha Migiwa", "Kazuha", "Migiwa Kazuha", "Migiwa"]
+    },
+    {
+        "question": "(Yosuga no Sora) Out of her friends, which one does Kazuha like the least?",
+        "answers": ["Ryouhei Nakazato", "Ryouhei", "Nakazato Ryouhei", "Nakazato"]
+    },
+    {
+        "question": "(Yosuga no Sora) Who is one of Kazuha's employees?",
+        "answers": ["Motoka Nogisaka", "Motoka", "Nogisaka Motoka", "Nogisaka"]
+    },
+    {
+        "question": "(Yosuga no Sora) Kazuha's father is an _____ ______.",
+        "answers": ["Influential magnate"]
+    },
+    {
+        "question": "(Yosuga no Sora) What color is Kazuha's swimsuit?",
+        "answers": ["Blue with white polka dots"]
+    },
+    {
+        "question": "(Yosuga no Sora) The Japanese voice actress for Kazuha in the anime is who?",
+        "answers": ["Ryoko Ono"]
+    },
+    {
+        "question": "(Yosuga no Sora) Who's zodiac sign is Libra?",
+        "answers": ["Nao Yorihime", "Yorihime Nao", "Nao", "Yorihime"]
+    },
+    {
+        "question": "(Yosuga no Sora) Nao is the one of the only characters that suffers from ______.",
+        "answers": ["Tension"]
+    },
+    {
+        "question": "(Yosuga no Sora) What does Nao's name mean in Japanese?",
+        "answers": ["Honest"]
+    },
+    {
+        "question": "(Yosuga no Sora) Nao is the most ______ of the heroines.",
+        "answers": ["Adult like"]
+    },
+    {
+        "question": "(Yosuga no Sora) When is Nao's birthday?",
+        "answers": ["October 7th"]
+    },
+    {
+        "question": "(Yosuga no Sora) How old is Nao?",
+        "answers": ["17 years old"]
+    },
+    {
+        "question": "(Initial D) Name one car in the anime that Shuichi Shigeno owned.",
+        "answers": ["Toyota Trueno AE86", "Subaru WRX"]
+    },
+    {
+        "question": "(Initial D) Who is the original inspiration of the driver of the Eight-Six?",
+        "answers": ["Dorikin", "Dori-Dori", "Keiichi Tsuchiya", "Keiichi", "Tsuchiya"]
+    },
+    {
+        "question": "(Initial D) What color does the sportsbike rider who appears in the 3rd stage and overtook Takumi wear?",
+        "answers": ["Green"]
+    },
+    {
+        "question": "(Initial D) The Akina Speedstars and Seven Star Leaves are named after which wheel brand?",
+        "answers": ["Speed Star Racing"]
+    },
+    {
+        "question": "(Initial D) In Japanese, the name Takumi means what?",
+        "answers": ["Skillful", "Clever"]
+    },
+    {
+        "question": "(Initial D) One Hong Kong superstar that were previously attached to the live action movie is _____ ____.",
+        "answers": ["Jackie Chan", "Andy Lau", "Tsui Hark"]
+    },
+    {
+        "question": "(Initial D) Which variant of Eurodisco owes its decent popularity to this series?",
+        "answers": ["Eurobeat"]
+    },
+    {
+        "question": "(Initial D) The anime _____ _____ also features a character name Takumi Fujiwara.",
+        "answers": ["Dear Boys"]
+    },
+    {
+        "question": "(Initial D) TP was intending to market the series as what for a new generation.",
+        "answers": ["Speed Racer"]
+    },
+    {
+        "question": "(Initial D) The Toyota Trueno was made in ____ _____ _____.",
+        "answers": ["The year 1983"]
+    },
+    {
+        "question": "(Initial D) What does Bunta own besides a car?",
+        "answers": ["A tofu shop"]
+    },
+    {
+        "question": "(Initial D) _____ _____ plays Takumi in the live action movie.",
+        "answers": ["Jay Chou"]
+    },
+    {
+        "question": "(Initial D) This series got the ______ _______ spot in Watch Mojo's Top 10 best anime soundtracks.",
+        "answers": ["Number 1"]
+    },
+    {
+        "question": "(Initial D) Name one thing that Takumi dislikes.",
+        "answers": ["Showoffs", "Losing", "Girls that flirt"]
+    },
+    {
+        "question": "(Initial D) The Toyota Corolla Levin SR (AE85) belongs to which character?",
+        "answers": ["Itsuki Takeuchi", "Itsuki", "Takeuchi Itsuki", "Takeuchi"]
+    },
+    {
+        "question": "(Initial D) Hiroshi Fumihiro's Madza is which character?",
+        "answers": ["Classic red"]
+    },
+    {
+        "question": "(Initial D) Which character is the leader of the Speedstars?",
+        "answers": ["Kouichirou Iketani", "Kouichirou", "Iketani Kouichirou", "Iketani"]
+    },
+    {
+        "question": "(Initial D) This character shares a name with a character in Scooby Doo and the Samurai Sword. Who is it?",
+        "answers": ["Kenji"]
+    },
+    {
+        "question": "(Initial D) Natsuki Mogi's Japanese voice actress in the main series is who?",
+        "answers": ["Ayako Kawasumi"]
+    },
+    {
+        "question": "(Initial D) What car does Kenta Nakamura own?",
+        "answers": ["Nissan Silvia Q's Aero (S14)"]
+    },
+    {
+        "question": "(Initial D) The Black Lightning is an alias for which character?",
+        "answers": ["Takeshi Nakazato", "Takeshi"]
+    },
+    {
+        "question": "(Initial D) In the Tokyopop dub, who voices Saori?",
+        "answers": ["Colleen O'Shaughnessey"]
+    },
+    {
+        "question": "(Initial D) A __________ kept Iketani and Mako apart.",
+        "answers": ["Misunderstanding"]
+    },
+    {
+        "question": "(Initial D) Who is Mako's navigator?",
+        "answers": ["Sayuki", "Simone"]
+    },
+    {
+        "question": "(Initial D) How does Shingo Shoji drive?",
+        "answers": ["Dangerously"]
+    },
+    {
+        "question": "(Initial D) Which character drives a Toyota Chaser?",
+        "answers": ["Yuuichi Tachibana'Tachibana Yuuichi", "Tachibana", "Yuuichi"]
+    },
+    {
+        "question": "(Initial D) The car that Ryousuke drives is what?",
+        "answers": ["A 1990 Mazda Savanna RX-7"]
+    },
+    {
+        "question": "(Initial D) What kind of drive does Keisuke Takahashi dislike?",
+        "answers": ["Four wheel drive", "4WD"]
+    },
+    {
+        "question": "(Initial D) Who is Takumi's Korean voice actor?",
+        "answers": ["Jun Seok Song"]
+    },
+    {
+        "question": "(Initial D) Bunta in Japanese means ________.",
+        "answers": ["Sentence", "Writing", "Design"]
+    },
+    {
+        "question": "(Initial D) _______ _______ is what Fumihiro's name in Japanese means.",
+        "answers": ["Wide sentence"]
+    },
+    {
+        "question": "(Initial D) Kouichirou is how tall?",
+        "answers": ["175 cm", "5 foot 7 inches"]
+    },
+    {
+        "question": "(Initial D) In Japanese, Kenji means _____ _____ _____.",
+        "answers": ["Twice as wise"]
+    },
+    {
+        "question": "(Initial D) The meaning of Natsuki's name in Japanese is what?",
+        "answers": ["Summer", "Hope"]
+    },
+    {
+        "question": "(Initial D) Kenta means ______ in Japanese.",
+        "answers": ["Healthy", "Strong", "Thick", "Big"]
+    },
+    {
+        "question": "(Initial D) What does Takeshi in Japanese mean?",
+        "answers": ["Warrior", "Fierce"]
+    },
+    {
+        "question": "(Initial D) One meaning of Saori's name is what?",
+        "answers": ["Sun child", "Bright sun"]
+    },
+    {
+        "question": "(Initial D) Mako's name means _____ _____ ______ in Japanese.",
+        "answers": ["Child of truth"]
+    },
+    {
+        "question": "(Initial D) Sayuki's Spanish voice actress is ______ ______.",
+        "answers": ["Mireya Mendoza"]
+    },
+    {
+        "question": "(Initial D) My _______ is what Shingo means in Japanese.",
+        "answers": ["Humility"]
+    },
+    {
+        "question": "(Initial D) In Japanese Yuuichi means what?",
+        "answers": ["Kind one"]
+    },
+    {
+        "question": "(Initial D) Which character's name means good help in Japanese?",
+        "answers": ["Ryousuke"]
+    },
+    {
+        "question": "(Initial D) Keisuke's name means what in Japanese?",
+        "answers": ["Save"]
+    },
+    {
+        "question": "(Initial D) What kind of trees does Itsuki's name mean in Japanese?",
+        "answers": ["Timber trees"]
+    },
+    {
+        "question": "(Initial D) Who is Itsuki's Brazilian voice actor?",
+        "answers": ["Yuri Chesman"]
+    },
+    {
+        "question": "(Initial D) Fabrizio Manfredi is which character's Italian voice actor?",
+        "answers": ["Keisuke"]
+    },
+    {
+        "question": "(Initial D) Which character shares a voice actor with Axel from the Kingdom Hearts series and Reno from the Final Fantasy series?",
+        "answers": ["Shingo"]
+    },
+    {
+        "question": "(Initial D) What car does Natsuki's sugar daddy drive?",
+        "answers": ["A white Mercedes", "A Mercedes"]
+    },
+    {
+        "question": "(Initial D) Takeshi is the leader of _____ _____ ______.",
+        "answers": ["The Myogi Nightkids", "Myogi Nightkids"]
+    },
+    {
+        "question": "(Initial D) What color is Takumi's car?",
+        "answers": ["High tech two tone"]
+    },
+    {
+        "question": "(Nichijou) What tokusatsu series is the alien that Yuko tries to befriend in episode 10 from?",
+        "answers": ["Ultraman"]
+    },
+    {
+        "question": "(Nichijou) Which gaming system is Sasahara seen playing in episode 2?",
+        "answers": ["Virtual Boy"]
+    },
+    {
+        "question": "(Nichijou) In episode 12, the gun that Misato uses to shoot at Sasahara is what model?",
+        "answers": ["P90 Submachine Gun"]
+    },
+    {
+        "question": "(Nichijou) The blackbird in episode 26 is based on what?",
+        "answers": ["An airship", "An American airship", "A reconnaissance aircraft"]
+    },
+    {
+        "question": "(Nichijou) What is the video game based on the series called?",
+        "answers": ["Nichijou) Uchuujin", "Regular Life) Alien"]
+    },
+    {
+        "question": "(Nichijou) The system that the video game is on is what?",
+        "answers": ["PSP", "Playstation Portable"]
+    },
+    {
+        "question": "(Nichijou) Who said) Super Ultra Great Delicious Wonderful Bad?",
+        "answers": ["Yuuko Aioi", "Aioi Yuuko", "Aioi", "Yuuko"]
+    },
+    {
+        "question": "(Nichijou) How many pets does Mai Minakami have?",
+        "answers": ["3 pets"]
+    },
+    {
+        "question": "(Nichijou) Why does Mio Naganohara goes on a rampage in episode 5?",
+        "answers": ["The teacher was impressed with Yuuko's drawing"]
+    },
+    {
+        "question": "(Nichijou) Sakamoto has how many character songs?",
+        "answers": ["5 character songs"]
+    },
+    {
+        "question": "(Nichijou) When is Nano Shinonome's birthday?",
+        "answers": ["August 7th "]
+    },
+    {
+        "question": "(Nichijou) What is Hakase's English name?",
+        "answers": ["Professor"]
+    },
+    {
+        "question": "(Nichijou) The subject Akagi teaches at Tokisadame High School is what?",
+        "answers": ["Math"]
+    },
+    {
+        "question": "(Nichijou) Which Lucky Star character bears a resemblance to Haruna Annaka?",
+        "answers": ["Tsukasa Hiiragi", "Tsukasa", "Hiiragi Tsukasa", "Hiiragi"]
+    },
+    {
+        "question": "(Nichijou) _____ _____ _____ is the character Etsuko Kozakura voices.",
+        "answers": ["Biscuit No. 2"]
+    },
+    {
+        "question": "(Nichijou) What does Karasu need in order to talk?",
+        "answers": ["Sakamoto's scarf"]
+    },
+    {
+        "question": "(Nichijou) Kenzaburou Daiku is the president of which club?",
+        "answers": ["Igo soccer"]
+    },
+    {
+        "question": "(Nichijou) How does Fey die?",
+        "answers": ["Trips over his feet"]
+    },
+    {
+        "question": "(Nichijou) The occupation that Masaharu Egi has is what?",
+        "answers": ["Flowing noodle researcher"]
+    },
+    {
+        "question": "(Nichijou) Name one of Fecchan's friends.",
+        "answers": ["Misato", "Weboshi"]
+    },
+    {
+        "question": "(Nichijou) _________'s grandfather is the gentleman.",
+        "answers": ["Kiyoshi"]
+    },
+    {
+        "question": "(Nichijou) Who's the vice principal's daughter?",
+        "answers": ["Kimiko"]
+    },
+    {
+        "question": "(Nichijou) What is unknown to most about Principal Shinonome?",
+        "answers": ["He's a talented wrestler"]
+    },
+    {
+        "question": "(Nichijou) Which character has a crush on Izumi Sakurai?",
+        "answers": ["Manabu Takasaki", "Takasaki", "Manabu", "Takasaki Manabu"]
+    },
+    {
+        "question": "(Nichijou) Manabu's last name is a reference to a city. Which region is it in?",
+        "answers": ["Gunma"]
+    },
+    {
+        "question": "(Nichijou) _______ is the character Kana Nakamura is always trying to capture.",
+        "answers": ["Nano"]
+    },
+    {
+        "question": "(Nichijou) Yuria Sekiguchi is interested in what?",
+        "answers": ["Calligraphy"]
+    },
+    {
+        "question": "(Nichijou) At some point what was Matoko Sakurai's occupation?'The daifuku mascot",
+        "answers": ["Daifuku mascot"]
+    },
+    {
+        "question": "(Nichijou) What is Tanaka's afro used for?",
+        "answers": ["To store stuff"]
+    },
+    {
+        "question": "(Nichijou) Who is often the victim of Nakamura's failed attempts to catch Nano?",
+        "answers": ["Nakanojo Tsuyoshi", "Nakanojo", "Tsuyoshi Nakanojou", "Tsuyoshi"]
+    },
+    {
+        "question": "(Nichijou) Ogi is the only one who knows the rules to what?",
+        "answers": ["Igo soccer"]
+    },
+    {
+        "question": "(Nichijou) Why does Koujirou Sasahara wear glasses?",
+        "answers": ["For show"]
+    },
+    {
+        "question": "(Nichijou) Which attitude does Misato Tachibana have?",
+        "answers": ["Tsundere"]
+    },
+    {
+        "question": "(Nichijou) The character that likes rock music is who?",
+        "answers": ["Weboshii"]
+    },
+    {
+        "question": "(Nichijou) Name one of Yoshino Naganohara's abilities?",
+        "answers": ["Kendo", "Prankster", "Expert prankster", "Cooking"]
+    },
+    {
+        "question": "(Nichijou) ________ _______  is Mihoshi Tachibana's voice actress.",
+        "answers": ["Manami Honda"]
+    },
+    {
+        "question": "(Nichijou) Where does Tamamura work?",
+        "answers": ["Daiku cafe", "At a cafe", "A cafe"]
+    },
+    {
+        "question": "(Nichijou) Who is Dolph's enemy?",
+        "answers": ["Princess Starla"]
+    },
+    {
+        "question": "(Nichijou) Which character is implied as Sumika's sibling?",
+        "answers": ["Kenzaburou"]
+    },
+    {
+        "question": "(Nichijou) Tanabo mistakes Yuuko as who?",
+        "answers": ["Double Cheeseburgirl"]
+    },
+    {
+        "question": "(Nichijou) One of the books that Hajime Sakurai has written is ______",
+        "answers": ["Steam", "Milk Snow", "Relay Cropping"]
+    },
+    {
+        "question": "(Nichijou) Mi-chan is very good at throwing what?",
+        "answers": ["Baseballs"]
+    },
+    {
+        "question": "(Nichijou) Tsuyoshi's father owns a _____ ______",
+        "answers": ["Daifuku stand"]
+    },
+    {
+        "question": "(Nichijou) The mysterious dog who comforts Yuuko after an unfortunate event is named?",
+        "answers": ["Buddy"]
+    },
+    {
+        "question": "(Nichijou) What color is Oguri Cap?",
+        "answers": ["Brown and white"]
+    },
+    {
+        "question": "(Nichijou) The color of Pyon's fur is what?",
+        "answers": ["White"]
+    },
+    {
+        "question": "(Nichijou) What is Mio often seen reading?",
+        "answers": ["The newspaper", "Newspaper"]
+    },
+    {
+        "question": "(Nichijou) This series' video game is the premise of what?",
+        "answers": ["Yuuko's classroom dreams"]
+    },
+    {
+        "question": "(Nichijou) What does Mai write?",
+        "answers": ["Music"]
+    },
+    {
+        "question": "(Nichijou) Why didn't Hakase like Mai at first?",
+        "answers": ["Mai's dogs"]
+    },
   {
     "question": "(Whisper of the Heart) Which company created the clock in the antique shop? ",
     "answers": ["Porco Rosso"]
