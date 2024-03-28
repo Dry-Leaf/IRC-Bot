@@ -21,6 +21,7 @@ go build -o chii *.go
 ## Comands
 
 `Look up weather`
+
 .wet
 
 .wet New York
@@ -30,6 +31,7 @@ go build -o chii *.go
 .wet 120-0015, JP
 
 `Register Weather location`
+
 .wet_register *location*
 
 `Trivia`
@@ -40,13 +42,17 @@ go build -o chii *.go
 .striv
 
 `Send private message to someone the next time they enter the channel`
+
 .tell *recipient* *message*
 
 `Look up words in Urban Dictionary`
+
 .ud word
 
 `8ball`
+
 .8ball
 
 `Fortune Cookie`
+
 .fortune
