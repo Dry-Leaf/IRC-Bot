@@ -160,11 +160,11 @@ func Openweather(sender, stored, ch string, conn *irc.Connection) {
             slash := " " + string('\u0003') + "7FL" + string('\u0003') + " "
 
             weather_output := string('\u0002') + name + ", " + ws.Country + string('\u0002') + seperator +
-                strconv.FormatFloat(math.Round(met_temp), 'f', 0, 32) + "℃ - " + strconv.FormatFloat(math.Round(wm.Temp), 'f', 0, 32) + "℉" 
+                strconv.FormatFloat(math.Round(met_temp), 'f', 0, 32) + "°C - " + strconv.FormatFloat(math.Round(wm.Temp), 'f', 0, 32) + "°F" 
                 
             if (math.Round(wm.FeelsLike) != math.Round(wm.Temp)) {
                 weather_output += slash +
-                strconv.FormatFloat(math.Round(met_fl), 'f', 0, 32) + "℃ - " + strconv.FormatFloat(math.Round(wm.FeelsLike), 'f', 0, 32) + "℉"}
+                strconv.FormatFloat(math.Round(met_fl), 'f', 0, 32) + "°C - " + strconv.FormatFloat(math.Round(wm.FeelsLike), 'f', 0, 32) + "°F"}
 
             weather_output += seperator +
                 weather_map[post_id] + " " + ww[0].Description + seperator +
