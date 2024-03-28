@@ -44,7 +44,7 @@ var openweather_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s+|\z)(\S[^,]+(?:\z|,))
 var openweather_cityreg = regexp.MustCompile(`(?i)\A\D+\z`)
 
 var register_reg = regexp.MustCompile(`(?i)\A\.wet_register(?:\s+)((\S[^,]+(?:\z|,))(?:\s+|\z)([a-z]*))`)
-var database_reg = regexp.MustCompile(`(?i)\A\.wet(?:\z)`)
+var database_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s*)(?:\z)`)
 var location_reg = regexp.MustCompile(`(?i)(\S[^,]+(?:\z|,))(?:\s+|\z)([a-z]*)`)
 
 func WetRegister(sender, stored, ch string, conn *irc.Connection) {
