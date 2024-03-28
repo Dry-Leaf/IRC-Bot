@@ -35,6 +35,7 @@ go build -o chii *.go
 .wet_register *location*
 
 `Trivia`
+
 .triv
 
 .triv 10
