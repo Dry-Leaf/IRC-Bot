@@ -8,8 +8,11 @@ import (
     "encoding/json"
     "io/ioutil"
     "strconv"
+    "database/sql"
+    //"fmt"
 
     "github.com/thoj/go-ircevent"
+    _ "github.com/mattn/go-sqlite3"
 )
 
 var weather_map = map[int]string{3: "☂", 5: "☂", 2: "☈",
@@ -38,9 +41,46 @@ type Weather_sys struct {
 var openweather_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s+|\z)(\S[^,]+(?:\z|,))(?:\s+|\z)([a-z]*)`)
 var openweather_cityreg = regexp.MustCompile(`(?i)\A\D+\z`)
 
+var register_reg = regexp.MustCompile(`(?i)\A\.wet_register(?:\s+)((\S[^,]+(?:\z|,))(?:\s+|\z)([a-z]*))`)
+var database_reg = regexp.MustCompile(`(?i)\A\.wet(?:\z)`)
+var location_reg = regexp.MustCompile(`(?i)(\S[^,]+(?:\z|,))(?:\s+|\z)([a-z]*)`)
+
+func WetRegister(sender, stored, ch string, conn *irc.Connection) {
+    location := register_reg.FindStringSubmatch(stored)
+
+    if len(location) > 0 {
+        dbconn, err := sql.Open("sqlite3", "message.db")
+        Err_check(err)
+        defer dbconn.Close()
+
+        statement, err := dbconn.Prepare(`INSERT OR REPLACE INTO wet (User, Location) 
+            VALUES (?, ?)`)
+        Err_check(err)
+
+        statement.Exec(sender, location[1])
+        conn.Privmsg(ch, string('\u0003') + "13Registration Complete");
+}}
+
 //posts weather
-func Openweather(stored, ch string, conn *irc.Connection) {
-    location := openweather_reg.FindStringSubmatch(stored)
+func Openweather(sender, stored, ch string, conn *irc.Connection) {
+    var location []string
+    
+    if match := database_reg.MatchString(stored); match {
+        dbconn, err := sql.Open("sqlite3", "message.db")
+        Err_check(err)
+        defer dbconn.Close()
+
+        statement, err := dbconn.Prepare(`SELECT Location FROM wet WHERE User = ?`)
+        Err_check(err)
+
+        var temp_location string
+        err = statement.QueryRow(sender).Scan(&temp_location)
+        if err == sql.ErrNoRows {
+            conn.Privmsg(ch, "No location associated with: " + sender + ". Please use .wet_register to register one.");
+        } else {Err_check(err)}
+        
+        location = location_reg.FindStringSubmatch(temp_location)
+    } else {location = openweather_reg.FindStringSubmatch(stored)}
 
     if len(location) > 0{
 
@@ -54,9 +94,9 @@ func Openweather(stored, ch string, conn *irc.Connection) {
             } else { api_url += "&zip=" }
             
             api_url += location[1]
-        } else {return}		//check map for registered zip codes
+        } else {return}		
         if location[2] != "" {
-            api_url += "," + location[2]
+            api_url += location[2]
         }
 
         api_url += `&appid=` + OW_apikey
@@ -109,19 +149,20 @@ func Openweather(stored, ch string, conn *irc.Connection) {
             met_temp := (wm.Temp - 32) / 1.8
             met_speed := wwi.Speed * .44704
 
-            weather_output := ": : " + name + ", " + ws.Country + " : : " +
-                weather_map[post_id] + " " + ww[0].Description + " : : " +
-                "Temperature " + strconv.FormatFloat(met_temp, 'f', 2, 32) + "C - " +
-                    strconv.FormatFloat(wm.Temp, 'f', 2, 32) + "F : : " +
-                "Pressure " + strconv.FormatFloat(wm.Pressure, 'f', 2, 32) + "㍱ : : " +
-                "Humidity " + strconv.FormatFloat(wm.Humidity, 'f', 2, 32) + "% : : " +
-                "Wind " + strconv.FormatFloat(met_speed, 'f', 2, 32) + "m/s - " + 
-                    strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph : : " +
-                "https://openweathermap.org : :"
+            seperator := string('\u0003') + "13 : : " + string('\u0003')
+            weather_output := string('\u0003') + "13: : " + string('\u0003') + string('\u0002') + name + ", " + ws.Country + string('\u0002') + seperator +
+                weather_map[post_id] + " " + ww[0].Description + seperator +
+                string('\u0002') + "Temperature " + string('\u0002') + strconv.FormatFloat(met_temp, 'f', 2, 32) + "C - " +
+                    strconv.FormatFloat(wm.Temp, 'f', 2, 32) + "F" + seperator +
+                string('\u0002') + "Pressure " + string('\u0002') + strconv.FormatFloat(wm.Pressure, 'f', 2, 32) + "㍱" + seperator +
+                string('\u0002') + "Humidity " + string('\u0002') + strconv.FormatFloat(wm.Humidity, 'f', 2, 32) + "%" + seperator +
+                string('\u0002') + "Wind " + string('\u0002') + strconv.FormatFloat(met_speed, 'f', 2, 32) + "m/s - " + 
+                    strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph" + seperator +
+                "https://openweathermap.org" + seperator
 
            weather_output = Vowel_replace(weather_output)
            conn.Privmsg(ch, weather_output)
-        }
+        } else {conn.Privmsg(ch, "Invalid Location.");}
     }
 
 }

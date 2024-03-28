@@ -13,11 +13,20 @@ const (
         "Sender" TEXT NOT NULL,
         "Message" TEXT NOT NULL
     );`
+
+    createWetTabelSQL = `CREATE TABLE wet (
+        "User" TEXT PRIMARY KEY,
+        "Location" TEXT NOT NULL
+    );`
 )
 
 func create_table(db *sql.DB) {
 
     statement, err := db.Prepare(createMessageTabelSQL)
+    Err_check(err)
+    statement.Exec()
+
+    statement, err = db.Prepare(createWetTabelSQL)
     Err_check(err)
     statement.Exec()
 }

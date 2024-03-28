@@ -70,7 +70,8 @@ func main() {
         stored := e.Message()
 
         go Youtube(stored, e.Arguments[0], conn)
-        go Openweather(stored, e.Arguments[0], conn)
+        go Openweather( e.Nick, stored, e.Arguments[0], conn)
+        go WetRegister( e.Nick, stored, e.Arguments[0], conn)
         go Urbandictionary(stored, e.Arguments[0], conn)
         go EightBall(stored, e.Arguments[0], conn)
         go NewMessage(e.Nick, stored, conn)
