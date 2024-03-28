@@ -26,8 +26,8 @@ type Weather_weather struct {
 
 type Weather_main struct {
     Temp float64        `json:"temp"`
-    Humidity float64    `json:"humidity"`
-    Pressure float64	`json:"pressure"`
+    Humidity int64      `json:"humidity"`
+    Pressure int64	`json:"pressure"`
 }
 
 type Weather_wind struct {
@@ -154,13 +154,12 @@ func Openweather(sender, stored, ch string, conn *irc.Connection) {
                 weather_map[post_id] + " " + ww[0].Description + seperator +
                 string('\u0002') + "Temperature " + string('\u0002') + strconv.FormatFloat(met_temp, 'f', 2, 32) + "C - " +
                     strconv.FormatFloat(wm.Temp, 'f', 2, 32) + "F" + seperator +
-                string('\u0002') + "Pressure " + string('\u0002') + strconv.FormatFloat(wm.Pressure, 'f', 2, 32) + "㍱" + seperator +
-                string('\u0002') + "Humidity " + string('\u0002') + strconv.FormatFloat(wm.Humidity, 'f', 2, 32) + "%" + seperator +
+                string('\u0002') + "Pressure " + string('\u0002') + strconv.FormatInt(wm.Pressure, 10) + "㍱" + seperator +
+                string('\u0002') + "Humidity " + string('\u0002') + strconv.FormatInt(wm.Humidity, 10) + "%" + seperator +
                 string('\u0002') + "Wind " + string('\u0002') + strconv.FormatFloat(met_speed, 'f', 2, 32) + "m/s - " + 
-                    strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph" + seperator +
-                "https://openweathermap.org" + seperator
+                    strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph" + seperator
 
-           weather_output = Vowel_replace(weather_output)
+           weather_output = Vowel_replace(weather_output) + "https://openweathermap.org" + seperator
            conn.Privmsg(ch, weather_output)
         } else {conn.Privmsg(ch, "Invalid Location.");}
     }
