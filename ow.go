@@ -9,6 +9,7 @@ import (
     "io/ioutil"
     "strconv"
     "database/sql"
+    "math"
     //"fmt"
 
     "github.com/thoj/go-ircevent"
@@ -26,6 +27,7 @@ type Weather_weather struct {
 
 type Weather_main struct {
     Temp float64        `json:"temp"`
+    FeelsLike float64   `json:"feels_like"`
     Humidity int64      `json:"humidity"`
     Pressure int64	`json:"pressure"`
 }
@@ -58,7 +60,7 @@ func WetRegister(sender, stored, ch string, conn *irc.Connection) {
         Err_check(err)
 
         statement.Exec(sender, location[1])
-        conn.Privmsg(ch, string('\u0003') + "13Registration Complete");
+        conn.Privmsg(ch, string('\u0003') + "7Registration Complete");
 }}
 
 //posts weather
@@ -121,6 +123,10 @@ func Openweather(sender, stored, ch string, conn *irc.Connection) {
 
             if cod != 200 {return}
 
+            var city_id int64
+            err = json.Unmarshal(dat["id"], &city_id)
+            Err_check(err)
+
             var name string
             err = json.Unmarshal(dat["name"], &name)
             Err_check(err)
@@ -147,21 +153,30 @@ func Openweather(sender, stored, ch string, conn *irc.Connection) {
             }
 
             met_temp := (wm.Temp - 32) / 1.8
+            met_fl := (wm.FeelsLike - 32) / 1.8
             met_speed := wwi.Speed * .44704
 
-            seperator := string('\u0003') + "13 : : " + string('\u0003')
-            weather_output := string('\u0003') + "13: : " + string('\u0003') + string('\u0002') + name + ", " + ws.Country + string('\u0002') + seperator +
-                weather_map[post_id] + " " + ww[0].Description + seperator +
-                string('\u0002') + "Temperature " + string('\u0002') + strconv.FormatFloat(met_temp, 'f', 2, 32) + "C - " +
-                    strconv.FormatFloat(wm.Temp, 'f', 2, 32) + "F" + seperator +
-                string('\u0002') + "Pressure " + string('\u0002') + strconv.FormatInt(wm.Pressure, 10) + "㍱" + seperator +
-                string('\u0002') + "Humidity " + string('\u0002') + strconv.FormatInt(wm.Humidity, 10) + "%" + seperator +
-                string('\u0002') + "Wind " + string('\u0002') + strconv.FormatFloat(met_speed, 'f', 2, 32) + "m/s - " + 
-                    strconv.FormatFloat(wwi.Speed, 'f', 2, 32) + "mph" + seperator
+            seperator := " " + string('\u0003') + "7●" + string('\u0003') + " "
+            slash := " " + string('\u0003') + "7FL" + string('\u0003') + " "
 
-           weather_output = Vowel_replace(weather_output) + "https://openweathermap.org" + seperator
+            weather_output := string('\u0002') + name + ", " + ws.Country + string('\u0002') + seperator +
+                strconv.FormatFloat(math.Round(met_temp), 'f', 0, 32) + "℃ - " + strconv.FormatFloat(math.Round(wm.Temp), 'f', 0, 32) + "℉" 
+                
+            if (math.Round(wm.FeelsLike) != math.Round(wm.Temp)) {
+                weather_output += slash +
+                strconv.FormatFloat(math.Round(met_fl), 'f', 0, 32) + "℃ - " + strconv.FormatFloat(math.Round(wm.FeelsLike), 'f', 0, 32) + "℉"}
+
+            weather_output += seperator +
+                weather_map[post_id] + " " + ww[0].Description + seperator +
+                strconv.FormatFloat(math.Round(met_speed), 'f', 0, 32) + "㎧ - " + strconv.FormatFloat(math.Round(wwi.Speed), 'f', 0, 32) + "mph" + seperator +
+                strconv.FormatInt(wm.Humidity, 10) + "%" + seperator +
+                strconv.FormatInt(wm.Pressure, 10) + "㍱" + seperator
+
+           weather_output = Vowel_replace(weather_output) + "https://openweathermap.org"
+           if city_id != 0 {weather_output += "/city/" + strconv.FormatInt(city_id, 10)}
+
            conn.Privmsg(ch, weather_output)
-        } else {conn.Privmsg(ch, "Invalid Location.");}
+        } else {conn.Privmsg(ch, string('\u0003') + "4Invalid Location");}
     }
 
 }
