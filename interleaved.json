@@ -1280,8 +1280,8 @@
         "answers": ["Yuna Seiran"]
     },
     {
-        "question": "(D.Gray-Man) Which character can't swim",
-        "answers": ["Yu Kanda?", "Kanda Yu"]
+        "question": "(D.Gray-Man) Which character can't swim?",
+        "answers": ["Yu Kanda", "Kanda Yu"]
     },
     {
         "question": "(D.Gray-Man) How old is Yu",
