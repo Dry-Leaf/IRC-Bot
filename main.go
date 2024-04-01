@@ -67,16 +67,18 @@ func main() {
 
     //anybody posts in the channel
     conn.AddCallback("PRIVMSG", func (e *irc.Event) {
-        stored := e.Message()
+        if e.Nick != Nickname {
+            stored := e.Message()
 
-        go Youtube(stored, e.Arguments[0], conn)
-        go Openweather( e.Nick, stored, e.Arguments[0], conn)
-        go WetRegister( e.Nick, stored, e.Arguments[0], conn)
-        go Urbandictionary(stored, e.Arguments[0], conn)
-        go EightBall(stored, e.Arguments[0], conn)
-        go NewMessage(e.Nick, stored, conn)
-        go Trivia(e.Nick, stored, e.Arguments[0], conn)
-    })
+            go Youtube(stored, e.Arguments[0], conn)
+            go YoutubeSearch(stored, e.Arguments[0], conn)
+            go Openweather(e.Nick, stored, e.Arguments[0], conn)
+            go WetRegister(e.Nick, stored, e.Arguments[0], conn)
+            go Urbandictionary(stored, e.Arguments[0], conn)
+            go EightBall(stored, e.Arguments[0], conn)
+            go NewMessage(e.Nick, stored, conn)
+            go Trivia(e.Nick, stored, e.Arguments[0], conn)
+    }})
 
     //anybody joins the server
     conn.AddCallback("JOIN", func (e *irc.Event) {
