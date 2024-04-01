@@ -46,6 +46,10 @@ go build -o chii *.go
 
 .tell *recipient* *message*
 
+`Return the title and link of a Youtube search's first result`
+
+.yt *search string*
+
 `Look up words in Urban Dictionary`
 
 .ud word
