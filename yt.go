@@ -9,6 +9,7 @@ import (
     "io/ioutil"
     "unicode/utf8"
     "encoding/json"
+    "net/url"
 
     "github.com/thoj/go-ircevent"
 )
@@ -18,14 +19,14 @@ var youtube_linkreg = regexp.MustCompile(`(?:.*)(https:\/\/|https:\/\/www.)(yout
 var youtube_searchreg = regexp.MustCompile(`(?i)\A\.yt\s(.+)`)
 
 func result_output(api_url, ch string, conn *irc.Connection) []string {
-        var client = &http.Client{Timeout: 10 * time.Second}
-        resp, err := client.Get(api_url)
-        if err != nil {
-            return nil
-        }
-        defer resp.Body.Close()
+    var client = &http.Client{Timeout: 10 * time.Second}
+    resp, err := client.Get(api_url)
+    if err != nil {
+        return nil
+    }
+    defer resp.Body.Close()
 
-        if resp.StatusCode == http.StatusOK {
+    if resp.StatusCode == http.StatusOK {
             var dat map[string]interface{}
             body, err := ioutil.ReadAll(resp.Body)
             Err_check(err)
@@ -59,7 +60,7 @@ func result_output(api_url, ch string, conn *irc.Connection) []string {
 
             fdesc = Vowel_replace(fdesc)
             return []string{title, fdesc, videoId}
-        }
+    }
     return nil
 }
 
@@ -87,11 +88,10 @@ func YoutubeSearch(stored, ch string, conn *irc.Connection) {
         query_string := query[1]
 
         api_url := "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&fields=items/id/videoId,pageInfo/totalResults,items/snippet/description,items/snippet/title&q=" +
-                    query_string + "&key=" + YT_apikey
+                    url.PathEscape(query_string) + "&key=" + YT_apikey
         ro := result_output(api_url, ch, conn)
         
         if ro != nil {
             conn.Privmsg(ch, Vowel_replace(html.UnescapeString(ro[0])) + " ★ youtu.be/" + ro[2])
-        }
-    }
+    }}
 }
