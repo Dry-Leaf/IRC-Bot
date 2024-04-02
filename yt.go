@@ -92,6 +92,6 @@ func YoutubeSearch(stored, ch string, conn *irc.Connection) {
         ro := result_output(api_url, ch, conn)
         
         if ro != nil {
-            conn.Privmsg(ch, Vowel_replace(html.UnescapeString(ro[0])) + " ★ youtu.be/" + ro[2])
+            conn.Privmsg(ch, Vowel_replace(html.UnescapeString(ro[0])) + " ★ http://youtu.be/" + ro[2])
     }}
 }
