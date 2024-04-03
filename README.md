@@ -48,7 +48,7 @@ go build -o chii *.go
 
 `Return the title and link of a Youtube search's first result`
 
-.yt *search string*
+.ytb *search string*
 
 `Look up words in Urban Dictionary`
 

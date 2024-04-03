@@ -16,7 +16,7 @@ import (
 
 
 var youtube_linkreg = regexp.MustCompile(`(?:.*)(https:\/\/|https:\/\/www.)(youtube.com\/watch\?v=|youtu.be\/)([^\?\s]+)(?:.*)`)
-var youtube_searchreg = regexp.MustCompile(`(?i)\A\.yt\s(.+)`)
+var youtube_searchreg = regexp.MustCompile(`(?i)\A\.ytb\s(.+)`)
 
 func result_output(api_url, ch string, conn *irc.Connection) []string {
     var client = &http.Client{Timeout: 10 * time.Second}
