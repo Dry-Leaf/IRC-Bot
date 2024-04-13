@@ -3,6 +3,7 @@ package main
 
 import (
     "regexp"
+    "strings"
     "net/http"
     "time"
     "encoding/json"
@@ -48,6 +49,7 @@ var database_reg = regexp.MustCompile(`(?i)\A\.wet(?:\s*)(?:\z)`)
 var location_reg = regexp.MustCompile(`(?i)(\S[^,]+(?:\z|,))(?:\s+|\z)([a-z]*)`)
 
 func WetRegister(sender, stored, ch string, conn *irc.Connection) {
+    stored = strings.TrimSpace(stored)
     location := register_reg.FindStringSubmatch(stored)
 
     if len(location) > 0 {
