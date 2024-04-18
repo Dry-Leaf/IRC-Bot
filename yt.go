@@ -6,7 +6,7 @@ import (
     "net/http"
     "time"
     "html"
-    "io/ioutil"
+    "io"
     "unicode/utf8"
     "encoding/json"
     "net/url"
@@ -28,7 +28,7 @@ func result_output(api_url, ch string, conn *irc.Connection) []string {
 
     if resp.StatusCode == http.StatusOK {
             var dat map[string]interface{}
-            body, err := ioutil.ReadAll(resp.Body)
+            body, err := io.ReadAll(resp.Body)
             Err_check(err)
             err = json.Unmarshal(body, &dat)
             Err_check(err)

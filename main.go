@@ -65,6 +65,8 @@ func main() {
             conn.Join(channel_list)
     })
 
+    go Calendar_auto(conn)
+
     //anybody posts in the channel
     conn.AddCallback("PRIVMSG", func (e *irc.Event) {
         if e.Nick != Nickname {
@@ -78,6 +80,7 @@ func main() {
             go EightBall(stored, e.Arguments[0], conn)
             go NewMessage(e.Nick, stored, conn)
             go Trivia(e.Nick, stored, e.Arguments[0], conn)
+            go Calendar(stored, e.Arguments[0], conn)
     }})
 
     //anybody joins the server

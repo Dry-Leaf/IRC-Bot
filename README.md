@@ -61,3 +61,7 @@ go build -o chii *.go
 `Fortune Cookie`
 
 .fortune
+
+`Calendar(automatic upon joining channel and after midnight UTC)`
+
+.cal

@@ -11,7 +11,7 @@ import (
     "regexp"
     "time"
     "encoding/json"
-    "io/ioutil"
+    "os"
 
     "github.com/thoj/go-ircevent"
 )
@@ -53,7 +53,7 @@ func (cq *question_struct) UnmarshalJSON(b []byte) error {
 }
 
 func Trivia_unload() {
-    file, err := ioutil.ReadFile("interleaved.json")
+    file, err := os.ReadFile("interleaved.json")
     Err_check(err)
 
     err = json.Unmarshal(file, &qslice)

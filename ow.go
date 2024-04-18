@@ -7,7 +7,7 @@ import (
     "net/http"
     "time"
     "encoding/json"
-    "io/ioutil"
+    "io"
     "strconv"
     "database/sql"
     "math"
@@ -112,7 +112,7 @@ func Openweather(sender, stored, ch string, conn *irc.Connection) {
         defer resp.Body.Close()
 
         if resp.StatusCode == http.StatusOK {            
-            body, err := ioutil.ReadAll(resp.Body)
+            body, err := io.ReadAll(resp.Body)
             Err_check(err)
             
             var dat map[string]json.RawMessage
