@@ -7,10 +7,11 @@ import (
     "math"
     "net/http"
     "encoding/json"
-//"fmt"
+    "fmt"
+
     "github.com/thoj/go-ircevent"
     "github.com/IvanMenshykov/MoonPhase"
-    "github.com/Lofanmi/chinese-calendar-golang/lunar"
+    //"github.com/Lofanmi/chinese-calendar-golang/lunar"
     "github.com/hashicorp/go-set/v2"
 )
 
@@ -30,19 +31,22 @@ var phase_output = map[int]string {
     8 : "🌑︎ New Moon",
 }
 
+var colo = string('\u0003')
+var colc = string('\u0003')
+
 var zodiac_output = map[string]string {
-    "aries": "♈︎",
-    "taurus": "♉︎",
-    "gemini": "♊︎",
-    "cancer": "♋︎",
-    "leo": "♌︎",
-    "virgo": "♍︎",
-    "libra": "♎︎",
-    "scorpio": "♏︎",
-    "sagittarius": "♐︎",
-    "capricorn": "♑︎",
-    "aquarius": "♓︎",
-    "pisces": "♓︎",
+    "aries": "♈︎ Aries",
+    "taurus": "♉︎ Taurus",
+    "gemini": "♊︎ Gemini",
+    "cancer": "♋︎ Cancer",
+    "leo": "♌︎ Leo",
+    "virgo": "♍︎ Virgo",
+    "libra": "♎︎ Libra",
+    "scorpio": "♏︎ Scorpio",
+    "sagittarius": "♐︎ Sagittarius",
+    "capricorn": "♑︎ Capricorn",
+    "aquarius": "♓︎ Aquarius",
+    "pisces": "♓︎ Pisces",
 }
 
 //USA, Canada, Japan, South Korea, China, Hong Kong, France, Canda, Brazil, Austria, Australia, Belarus, Switzerland, 
@@ -95,21 +99,24 @@ func get_holidays(now time.Time) string {
 }
 
 func calendar_output(now time.Time, ch string, conn *irc.Connection) {
-    //year, month, day := now.Date()
-    //midnight := time.Date(year, month, day, 0, 0, 0, 0, UTC_loc).AddDate(0, 0, 1)
+    year, _, _ := now.Date()
+    year_beginning := time.Date(year, 1, 1, 0, 0, 0, 0, UTC_loc)
+    days_duration := int(now.Sub(year_beginning).Hours() / 24)
+    weeks_duration := int(now.Sub(year_beginning).Hours() / (24 * 7))
+
     cal_output := string('\u0002') + now.Format("Mon Jan 2 ") + string('\u0002')
 
     moon := MoonPhase.New(now)
     phase := phase_output[int(math.Floor((moon.Phase() + 0.0625 ) * 8))]
     zodiac := zodiac_output[moon.ZodiacSign()]
 
-    lunar_calc := lunar.NewLunar(&now)
-    animal := lunar_calc.Animal().Alias()
+    //lunar_calc := lunar.NewLunar(&now)
+    //animal := lunar_calc.Animal().Alias()
 
     holidays := get_holidays(now)
     if len(holidays) > 1 {holidays = "🗓 " + holidays}
 
-    cal_output += " ★ " + phase + " ★ " + zodiac + " " + animal
+    cal_output += fmt.Sprintf(" ★ %s ★ %dW／%dD ★ %s", phase, weeks_duration, days_duration, zodiac)
 
     conn.Privmsg(ch, cal_output)
     time.Sleep(time.Second)
