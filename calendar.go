@@ -116,7 +116,7 @@ func calendar_output(now time.Time, ch string, conn *irc.Connection) {
     holidays := get_holidays(now)
     if len(holidays) > 1 {holidays = "🗓 " + holidays}
 
-    cal_output += fmt.Sprintf(" ★ %s ★ %dW／%dD ★ %s", phase, weeks_duration, days_duration, zodiac)
+    cal_output += fmt.Sprintf(" ★ %dW／%dD ★ %s ★ %s", weeks_duration, days_duration, phase, zodiac)
 
     conn.Privmsg(ch, cal_output)
     time.Sleep(time.Second)
