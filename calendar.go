@@ -138,8 +138,6 @@ func Calendar_auto(conn *irc.Connection) {
     year, month, day := now.Date()
     midnight := time.Date(year, month, day, 0, 0, 0, 0, UTC_loc).AddDate(0, 0, 1)
 
-    aux(now, conn)
-
     for range time.Tick(1 * time.Minute) {
         now = time.Now().UTC()
         if now.After(midnight) {
