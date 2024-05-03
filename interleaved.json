@@ -357,7 +357,7 @@
     },
     {
         "question": "(Black Rock Shooter) What was the shape of the phone charm that Mato bought for Yomi?",
-        "answers": ["A Star", "Star "]
+        "answers": ["A Star", "Star"]
     },
     {
         "question": "(Chrno Crusade) Who did Chrono kill by an accident?",
@@ -909,7 +909,7 @@
     },
     {
         "question": "(Hetalia) What is Italy's birthdate?",
-        "answers": ["March 17th "]
+        "answers": ["March 17th"]
     },
     {
         "question": "(Hetalia) Which character was based on a friend of Hidekaz Himaruya?",
@@ -1825,7 +1825,7 @@
     },
     {
         "question": "(Noragami) What is Iki's birthday?",
-        "answers": ["June 28th "]
+        "answers": ["June 28th"]
     },
     {
         "question": "(Noragami) What is Iki's character song?",
@@ -2069,7 +2069,7 @@
     },
     {
         "question": "(Danganronpa) What is Aoi Asahina's birthday?",
-        "answers": ["April 24th "]
+        "answers": ["April 24th"]
     },
     {
         "question": "(Danganronpa) Which self healing technique does Aoi practice?",
@@ -2801,7 +2801,7 @@
     },
     {
         "question": "(Nichijou) When is Nano Shinonome's birthday?",
-        "answers": ["August 7th "]
+        "answers": ["August 7th"]
     },
     {
         "question": "(Nichijou) What is Hakase's English name?",
