@@ -5,6 +5,7 @@ import (
     "regexp"
     "strings"
     "net/http"
+    "net/url"
     "time"
     "encoding/json"
     "io"
@@ -97,13 +98,15 @@ func Openweather(sender, stored, ch string, conn *irc.Connection) {
                 api_url += "&q="
             } else { api_url += "&zip=" }
             
-            api_url += location[1]
+            api_url += url.PathEscape(location[1])
         } else {return}		
         if location[2] != "" {
             api_url += location[2]
         }
 
         api_url += `&appid=` + OW_apikey
+
+        //fmt.Println(api_url)
         
         resp, err := client.Get(api_url)
         if err != nil {
