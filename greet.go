@@ -1,7 +1,6 @@
 package main
 
 import (
-    "time"
     "database/sql"
 
     "github.com/thoj/go-ircevent"
@@ -12,9 +11,8 @@ const (
     host_query = `SELECT EXISTS (SELECT 1 FROM hosts where Host = ?)`
     insert_host = `INSERT INTO hosts (Host) VALUES (?)`
 
-    greeting_1 = `Welcome to Tohno-chan's official IRC channel.`
-    greeting_2 = `Feel free to chat about anything within reason.`
-    greeting_3 = `You can use /nick to change your nickname from the default, brohno.`
+    greeting_1 = `Welcome to the `
+    greeting_1b = ` IRC channel desu.`
 )
 
 func Greet(host, ch string, conn *irc.Connection) {
@@ -31,11 +29,7 @@ func Greet(host, ch string, conn *irc.Connection) {
     if !repeat_user {
         tx.Exec(insert_host, host)
 
-        conn.Privmsg(ch, greeting_1)
-        time.Sleep(time.Second)
-        conn.Privmsg(ch, greeting_2)
-        time.Sleep(time.Second)
-        conn.Privmsg(ch, greeting_3)
+        conn.Privmsg(ch, greeting_1 + ch + greeting_1b)
     }
     
     tx.Commit()
