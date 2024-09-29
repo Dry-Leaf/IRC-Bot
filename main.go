@@ -86,7 +86,9 @@ func main() {
     //anybody joins the server
     conn.AddCallback("JOIN", func (e *irc.Event) {
         user := e.Nick
+        host := e.Host
         go Tell(user, conn)
+        if user != Nickname {go Greet(host, e.Arguments[0], conn)}
     })
 
     //kicked
