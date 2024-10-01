@@ -88,7 +88,7 @@ func main() {
         user := e.Nick
         host := e.Host
         go Tell(user, conn)
-        if user != Nickname {go Greet(host, e.Arguments[0], conn)}
+        if user != Nickname {go Greet(user, host, e.Arguments[0], conn)}
     })
 
     //kicked

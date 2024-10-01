@@ -22,6 +22,10 @@ const (
     createHostTableSQL = `CREATE TABLE hosts (
         "Host" TEXT PRIMARY KEY
     );`
+
+    createUserTableSQL = `CREATE TABLE users (
+        "Username" TEXT PRIMARY KEY
+    );`
 )
 
 func create_table(db *sql.DB) {
@@ -35,6 +39,10 @@ func create_table(db *sql.DB) {
     statement.Exec()
     
     statement, err = db.Prepare(createHostTableSQL)
+    Err_check(err)
+    statement.Exec()
+
+    statement, err = db.Prepare(createUserTableSQL)
     Err_check(err)
     statement.Exec()
 }

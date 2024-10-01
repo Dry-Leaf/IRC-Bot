@@ -12,6 +12,7 @@ var Nickname, Username string
 
 var YT_apikey string
 var OW_apikey string
+var Def_usernames = make(map[string]bool)
 
 func blank_check(setting string, key string) {
     if setting == "" {
@@ -20,7 +21,8 @@ func blank_check(setting string, key string) {
 }
 
 func Load_conf() {
-    cfg, err := ini.Load("chii.ini")
+    cfg, err := ini.LoadSources(
+        ini.LoadOptions{AllowBooleanKeys: true,}, "chii.ini")
     Err_check(err)
 
     Server = cfg.Section("IRC Settings").Key("server").String(); blank_check(Server, "server")
@@ -35,4 +37,9 @@ func Load_conf() {
 
     YT_apikey = cfg.Section("API Keys").Key("youtube").String(); blank_check(YT_apikey, "youtube")
     OW_apikey = cfg.Section("API Keys").Key("openweather").String(); blank_check(OW_apikey, "openweather")
+
+    defaults := cfg.Section("Default Usernames").KeyStrings()
+    for _, u := range defaults {
+        Def_usernames[u] = true
+    }
 }
