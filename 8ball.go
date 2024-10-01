@@ -388,6 +388,8 @@ var fortuneAnswers = map[int]string{
     368: "Be cautious while walking in the darkness alone.",
     369: "I see money in your future… it is not yours though.",
     370: "Hard work pays off in the future. Laziness pays off now.",
+    371: "Learn to manage your finances and live within your means.",
+    372: "This week, trust your intuition to guide you in the right direction.",
 }
 
 var eightBallReg = regexp.MustCompile(`(?i)\A\.8ball(?:\s+|\z)`)
@@ -400,7 +402,7 @@ func EightBall(stored, ch string, conn *irc.Connection) {
     }
 
     if fortuneReg.MatchString(stored) {
-        reply := fortuneAnswers[rand.Intn(371)]
+        reply := fortuneAnswers[rand.Intn(373)]
         conn.Privmsg(ch, reply)
     }
 }
