@@ -38,7 +38,11 @@ func Greet(username_full, host, ch string, conn *irc.Connection) {
     err = tx.QueryRow(user_query, username).Scan(&repeat_user)
     Err_check(err)
 
-    if repeat_user {return}
+    if repeat_user {
+        return
+    } else {
+        tx.Exec(insert_user, username)
+    }
 
     err = tx.QueryRow(host_query, host).Scan(&repeat_user)
     Err_check(err)
