@@ -21,7 +21,7 @@ const (
 
 func Greet(username_full, host, ch string, conn *irc.Connection) {
     username := strings.TrimRight(username_full, "_")
-    
+   
     _, is_default := Def_usernames[username]
     if is_default {
         conn.Privmsg(ch, greeting_1 + ch + greeting_1b)
@@ -33,6 +33,7 @@ func Greet(username_full, host, ch string, conn *irc.Connection) {
     defer dbconn.Close()
 
     tx, _ := dbconn.Begin()
+    defer tx.Commit()
 
     var repeat_user bool
     err = tx.QueryRow(user_query, username).Scan(&repeat_user)
@@ -52,6 +53,4 @@ func Greet(username_full, host, ch string, conn *irc.Connection) {
 
         conn.Privmsg(ch, greeting_1 + ch + greeting_1b)
     }
-    
-    tx.Commit()
 }
