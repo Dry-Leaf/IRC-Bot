@@ -646,7 +646,7 @@ var fortuneAnswers = [...]string {
   "May the warm winds of heaven blow softly upon your sprint.",
 }
 
-var fortune_size = len(fortuneAnswers) + 1
+var fortune_size = len(fortuneAnswers)
 
 var eightBallReg = regexp.MustCompile(`(?i)\A\.8ball(?:\s+|\z)`)
 var fortuneReg = regexp.MustCompile(`(?i)\A\.fortune(?:\s+|\z)`)
