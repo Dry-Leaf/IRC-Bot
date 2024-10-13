@@ -647,6 +647,7 @@ var fortuneAnswers = [...]string {
   "Kindness is a gift that never goes out of style.",
   "A new adventure will lead to exciting experiences.",
   "Excellence is the difference between what you do and what you are capable of.",
+  "You will discover new sources of joy in your life.",
 }
 
 var fortune_size = len(fortuneAnswers)
