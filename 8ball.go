@@ -392,7 +392,7 @@ var fortuneAnswers = [...]string {
     "This week, trust your intuition to guide you in the right direction.",
   "With integrity and consistency -- your credits are piling up.",
   "Reach out your hand today to support others who need you.",
-  "It is not the outside riches bit the inside ones that produce happiness.",
+  "It is not the outside riches but the inside ones that produce happiness.",
   "How dark is dark?, How wise is wise?",
   "We can admire all we see, but we can only pick one.",
   "The man who has no imagination has no wings.",
@@ -644,6 +644,9 @@ var fortuneAnswers = [...]string {
   "A problem clearly stated is a problem half solved.",
   "Accept your independence and use it wisely.",
   "May the warm winds of heaven blow softly upon your sprint.",
+  "Kindness is a gift that never goes out of style.",
+  "A new adventure will lead to exciting experiences.",
+  "Excellence is the difference between what you do and what you are capable of.",
 }
 
 var fortune_size = len(fortuneAnswers)
