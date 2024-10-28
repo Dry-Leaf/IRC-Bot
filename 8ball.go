@@ -648,6 +648,8 @@ var fortuneAnswers = [...]string {
   "A new adventure will lead to exciting experiences.",
   "Excellence is the difference between what you do and what you are capable of.",
   "You will discover new sources of joy in your life.",
+  "Fear can keep us up all night long, but faith makes one fine pillow.",
+  "Tomorrow is a blank canvas; paint it with your dreams.",
 }
 
 var fortune_size = len(fortuneAnswers)
